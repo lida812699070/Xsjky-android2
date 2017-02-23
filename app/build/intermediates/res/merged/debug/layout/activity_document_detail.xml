@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <include layout="@layout/weiget_head"></include>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/docName" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:id="@+id/tv_document_detail_DocumentNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/docNum" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:id="@+id/tv_document_daetail_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/docTel" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:id="@+id/tv_document_daetail_address1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/docadress1" />
+
+        <TextView
+            android:visibility="gone"
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:id="@+id/tv_document_daetail_address2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/docaddress2" />
+
+        <TextView
+            android:visibility="gone"
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:id="@+id/tv_document_daetail_Quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/docQuantity" />
+
+        <TextView
+            android:visibility="gone"
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:text="@string/docWeight"
+            android:id="@+id/tv_document_daetail_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:visibility="gone"
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:text="@string/docShipping"
+            android:id="@+id/tv_document_daetail_shipping_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:visibility="gone"
+            android:textColor="#000"
+            android:layout_margin="2dp"
+            android:textSize="18sp"
+            android:text="@string/docShippingStatus"
+            android:id="@+id/tv_document_daetail_shippingStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="拍照"
+            android:onClick="photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="rotate"
+            android:layout_alignParentRight="true"
+            android:text="旋转"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/iv_document_detail_order"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/docuemnt_detail_info"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="请输入签收人姓名"
+        android:id="@+id/et_doc_detail_received_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="确认签收"
+            android:id="@+id/btn_doc_detail_received"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="上传多张签收图"
+            android:id="@+id/btn_doc_detail_received_reset"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

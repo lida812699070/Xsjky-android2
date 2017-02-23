@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\OK\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.0\f1e24ac977505d1fdcabadaa5be1f41dc11c4286\butterknife-7.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f1e24ac977505d1fdcabadaa5be1f41dc11c4286">
+        <dex dex="C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\pre-dexed\release\butterknife-7.0.0_101ccbcd93aba1a3607f79cc47a40f236b1999e8.jar" />
+    </item>
+
+</items>

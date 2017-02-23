@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/weiget_head"></include>
+
+    <TextView
+        android:id="@+id/tv_IntoDetail_DocumentNum"
+        android:text="@string/documentNum"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_SendName"
+        android:text="@string/sendName"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_Actors"
+        android:text="@string/actors"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_Qty"
+        android:text="@string/qty"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_weight"
+        android:text="@string/weiget"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_vol"
+        android:text="@string/vol"
+        style="@style/ItemTextViewStyle" />
+
+</LinearLayout>

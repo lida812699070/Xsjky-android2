@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/weiget_head"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_IntoDetail_status"
+        android:text="订单状态："
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_IntoDetail_DocumentNum"
+        android:text="@string/documentNum"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_SendName"
+        android:text="@string/sendName"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_ShipperName"
+        android:text="寄件单位："
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_Actors"
+        android:text="@string/actors"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_Qty"
+        android:text="@string/qty"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_Remarks"
+        android:text="备注："
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_CargoVolumn"
+        android:text="货物最大体积："
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_IntoDetail_RequestRemarks"
+        android:text="货物大小备注："
+        style="@style/ItemTextViewStyle" />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_acceptDetail_refuse"
+            android:text="拒绝"
+            android:textColor="#fff"
+            android:background="#f00"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/btn_acceptDetail_accept"
+            android:text="接受"
+            android:textColor="@color/text_btn_seleor"
+            android:background="@drawable/login_btn"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="48dp" />
+        <Button
+            android:id="@+id/btn_acceptDetail_Lbs"
+            android:text="导航"
+            android:visibility="gone"
+            android:textColor="@color/text_btn_seleor"
+            android:background="@drawable/login_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp" />
+        <Button
+            android:id="@+id/btn_acceptDetail_finish"
+            android:text="完成"
+            android:visibility="gone"
+            android:textColor="@color/text_btn_seleor"
+            android:background="@drawable/login_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp" />
+        <Button
+            android:id="@+id/btn_acceptDetail_new_document"
+            android:text="新增运单"
+            android:visibility="gone"
+            android:textColor="@color/text_btn_seleor"
+            android:background="@drawable/login_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp" />
+    </LinearLayout>
+
+</LinearLayout>

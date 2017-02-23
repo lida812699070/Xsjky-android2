@@ -1,0 +1,602 @@
+[
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_printer.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_printer.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_handover.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_handover.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_refush.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\dialog_refush.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_handover.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_handover.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_deliverable.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\list_item_deliverable.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_custom_recive.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_select_custom_recive.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_selectcustom_recive.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\adapter_selectcustom_recive.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_query_lv.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_query_lv.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_address.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_add_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_into_documents_activty.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_into_documents_activty.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_head_madefragm.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_head_madefragm.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_listview.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\dialog_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_custom_manager.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_custom_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_query_document.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_query_document.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_error_document.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_error_document.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_cutomer.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_add_cutomer.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stat_bar_demo.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_stat_bar_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_froget_password.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_froget_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_show.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_photo_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_query_document_detail.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_query_document_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_manager.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_customer_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_simple_2.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_simple_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_doc_details.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_doc_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_a.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_a.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_addressinfo.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_addressinfo.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_into_doc_lv.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_into_doc_lv.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_made_frame.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_made_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_call_add_document.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_call_add_document.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_et.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\dialog_et.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_list_item.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\spinner_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_webview_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\jpush_webview_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_handover_list.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_handover_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_activity_by_number.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_search_activity_by_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_quest.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_send_quest.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_syn_data.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_syn_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_statistics_week.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\fragment_statistics_week.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scanner.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_empty_view.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\listview_empty_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map_apply_location.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_map_apply_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\province_dialog.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\province_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sarech.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_sarech.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mass_out.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_mass_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_error_document_lv.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_error_document_lv.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_btn.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_cargo_infos.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_update_cargo_infos.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\updata_cargo_item.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\updata_cargo_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tracking_lv.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_tracking_lv.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_title.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_getunfinish.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_getunfinish.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_handover.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_add_handover.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_query_un_finish_document.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_query_un_finish_document.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_all_rreturn_out.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_all_rreturn_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mass_out.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_mass_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_statistics.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weiget_head.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\weiget_head.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_carriage.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\list_item_carriage.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_psw.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_change_psw.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_address.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_select_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shipperselect.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\shipperselect.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_list.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\customer_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_dialog.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_lv_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_get_customer_shippers.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_get_customer_shippers.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lbs_loaction.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_lbs_loaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_madefragm.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_madefragm.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_activity_info.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_new_activity_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_statistics_month.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\fragment_statistics_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_into_document_activity_detail.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_into_document_activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_worker_dialog.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_select_worker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\Xsjky-android2\\library\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_get_location.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_get_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_is_accept_detail.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_is_accept_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_count_weight.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_count_weight.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recycler_load_more_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\recycler_load_more_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_about_lv.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_about_lv.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_customer_manager.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_customer_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_ac_info.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\list_ac_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_custom_manager.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_custom_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\Xsjky-android2\\library\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_document_detail.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_document_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\Xsjky-android2\\imageViewTouch\\unspecified\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_printer_freight.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_printer_freight.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_statistics_day.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\fragment_statistics_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lbslocation_lv.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_lbslocation_lv.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_addressinfo_list.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_addressinfo_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_statistics_document.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_statistics_document.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_handover.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\list_item_handover.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_simple_adapter.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\item_simple_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_applydocument.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\list_item_applydocument.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo1.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_demo1.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_contact.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\list_item_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_popwin_layout.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\jpush_popwin_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_detail.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\layout\\activity_image_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    }
+]

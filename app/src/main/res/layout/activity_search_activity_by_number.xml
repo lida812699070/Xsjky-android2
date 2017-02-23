@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ivToolbarBack"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/down"/>
+        <EditText
+            android:id="@+id/etToolbarSearch"
+            android:inputType="number"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edit_bg_def"
+            android:drawableLeft="@drawable/search_dark"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="请输入单号"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/btnToolbarSearch"
+            android:textColor="#9A9A9A"
+            android:text="搜索"
+            android:textSize="16sp"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

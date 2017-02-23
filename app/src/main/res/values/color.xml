@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="province_line_border">#C7C7C7</color>
+	<color name="gray">#C7C7C7</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+	<color name="ic_item_pressed">#80dedede</color>
+	<color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="toasterro">#4766ce</color>
+    <color name="et_baseColor">#0056d3</color>
+    <color name="met_underlineColor">#0056d3</color>
+    <color name="met_textColorHint">#8808397e</color>
+    <color name="met_textColor">#08397e</color>
+    <color name="title_tab">#005092</color>
+</resources>

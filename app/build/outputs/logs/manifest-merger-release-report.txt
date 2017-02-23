@@ -1,0 +1,787 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:2:1-368:12
+	package
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:2:11-37
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:5:11-38
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:4:11-35
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:3:11-69
+uses-sdk
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [Xsjky-android2:library:unspecified] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\Xsjky-android2\library\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\AndroidManifest.xml:7:5-9:41
+MERGED from [Xsjky-android2:imageViewTouch:unspecified] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\Xsjky-android2\imageViewTouch\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+permission#cn.xsjky.android.permission.JPUSH_MESSAGE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:11:5-13:46
+	android:protectionLevel
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:12:9-65
+uses-permission#android.permission.DEVICE_POWER
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:18:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#${applicationId}.permission.JPUSH_MESSAGE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:21:22-78
+		INJECTED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:22:5-78
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:24:22-81
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:25:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:26:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:27:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:28:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:29:5-64
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:29:22-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:30:22-70
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:31:22-82
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:32:5-80
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:32:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:33:5-78
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:33:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:34:5-66
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:34:22-64
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:35:5-75
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:35:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:36:5-75
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:36:22-73
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:37:5-68
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:37:22-66
+uses-permission#android.permission.HARDWARE_TEST
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:38:5-71
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:38:22-69
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:39:5-74
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:39:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:40:5-80
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:40:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:41:5-78
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:41:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:42:5-67
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:42:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:43:5-80
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:43:22-78
+uses-feature#android.hardware.camera
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:45:5-59
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:45:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:46:5-69
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:46:19-67
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:48:5-87
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:48:30-85
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:50:5-80
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:50:22-78
+uses-permission#android.permission.ACCES_MOCK_LOCATION
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:51:5-77
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:51:22-75
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:52:5-84
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:52:22-82
+uses-permission#android.permission.ACCESS_GPS
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:53:5-68
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:53:22-66
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:54:5-74
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:54:22-72
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:55:5-73
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:55:22-71
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:56:5-67
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:56:22-65
+application
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:58:5-366:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [Xsjky-android2:library:unspecified] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\Xsjky-android2\library\unspecified\AndroidManifest.xml:11:5-20
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\AndroidManifest.xml:11:5-20
+MERGED from [Xsjky-android2:imageViewTouch:unspecified] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\Xsjky-android2\imageViewTouch\unspecified\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:62:9-41
+	android:allowBackup
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:60:9-35
+	android:icon
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:61:9-45
+	android:persistent
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:63:9-34
+	android:theme
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:64:9-62
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:59:9-40
+activity#cn.xsjky.android.ui.WelcomeActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:65:9-75:20
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:69:13-49
+	android:label
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:68:13-45
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:67:13-57
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:66:13-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:70:13-74:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:71:17-68
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:73:17-76
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:73:27-74
+receiver#cn.xsjky.android.recive.RestartReceiver
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:77:9-83:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:77:19-57
+intent-filter#android.intent.action.NEW_OUTGOING_CALL+android.intent.action.PHONE_STATE+cn.xsjky.android.restartReceiver
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:78:13-82:29
+	android:priority
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:78:28-51
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:79:17-81
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:79:25-79
+action#cn.xsjky.android.restartReceiver
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:80:17-74
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:80:25-72
+action#android.intent.action.PHONE_STATE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:81:17-75
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:81:25-73
+service#com.baidu.location.f
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:85:9-89:40
+	android:enabled
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:87:13-35
+	android:process
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:89:13-38
+	android:permission
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:88:13-75
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:86:13-48
+service#cn.xsjky.android.service.GPSService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:90:9-54
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:90:18-52
+service#cn.xsjky.android.protectServce.protectService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:91:9-64
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:91:18-62
+service#cn.xsjky.android.protectServce.HostMonitor
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:92:9-95:38
+	android:enabled
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:94:13-35
+	android:exported
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:95:13-36
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:93:13-54
+activity#cn.xsjky.android.ui.MainActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:97:9-111:20
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:100:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:99:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:98:13-44
+data
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:101:13-104:40
+	android:host
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:102:17-48
+	android:scheme
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:104:17-38
+	android:pathPrefix
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:103:17-51
+intent-filter#android.intent.action.VIEW+android.intent.category.LAUNCHER
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:106:13-110:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:107:17-68
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:107:25-66
+activity#cn.xsjky.android.ui.LoginActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:112:9-115:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:115:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:114:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:113:13-45
+activity#cn.xsjky.android.ui.ApplyDocumentActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:116:9-119:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:119:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:118:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:117:13-53
+activity#cn.xsjky.android.ui.ApplyDocumentDetailActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:120:9-123:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:123:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:122:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:121:13-59
+activity#cn.xsjky.android.ui.DeliverableActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:124:9-127:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:127:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:126:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:125:13-51
+activity#cn.xsjky.android.ui.NewActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:128:9-131:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:131:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:130:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:129:13-43
+activity#cn.xsjky.android.ui.ScannerActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:132:9-135:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:135:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:134:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:133:13-47
+activity#cn.xsjky.android.ui.PrinterActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:136:9-139:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:139:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:138:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:137:13-47
+activity#cn.xsjky.android.ui.FreightActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:140:9-143:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:143:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:142:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:141:13-47
+activity#cn.xsjky.android.ui.RolloutActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:144:9-147:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:147:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:146:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:145:13-47
+activity#cn.xsjky.android.ui.HandoverActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:148:9-151:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:151:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:150:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:149:13-48
+activity#cn.xsjky.android.ui.BtConfigActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:152:9-157:58
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:155:13-35
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:154:13-63
+	android:theme
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:157:13-56
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:153:13-48
+activity#cn.xsjky.android.ui.ActivityDocumentDetailActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:158:9-161:51
+	android:screenOrientation
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:161:13-49
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:160:13-57
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:159:13-62
+activity#cn.xsjky.android.ui.Demo1
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:162:9-164:71
+	android:theme
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:164:13-69
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:163:13-37
+activity#cn.xsjky.android.ui.MapApplyLocation
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:165:9-56
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:165:19-54
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:167:9-169:63
+	android:value
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:169:13-61
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:168:13-52
+meta-data#BaiduMobAd_STAT_ID
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:170:9-172:63
+	android:value
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:172:13-61
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:171:13-46
+activity#cn.xsjky.android.ui.PhotoShowActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:174:9-57
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:174:19-55
+activity#cn.xsjky.android.ui.HandoverListActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:175:9-60
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:175:19-58
+activity#cn.xsjky.android.ui.AddHandoverActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:176:9-179:74
+	android:windowSoftInputMode
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:179:13-72
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:178:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:177:13-51
+activity#cn.xsjky.android.ui.AllReturnOutActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:180:9-60
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:180:19-58
+activity#cn.xsjky.android.ui.IntoDocumentsActivty
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:181:9-60
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:181:19-58
+activity#cn.xsjky.android.ui.IntoDocumentActivityDetail
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:182:9-66
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:182:19-64
+activity#cn.xsjky.android.ui.BNDemoMainActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:183:9-58
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:183:19-56
+activity#cn.xsjky.android.ui.BNDemoGuideActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:184:9-59
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:184:19-57
+activity#cn.xsjky.android.ui.FrogetPasswordActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:185:9-62
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:185:19-60
+meta-data#RONG_CLOUD_APP_KEY
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:187:9-189:44
+	android:value
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:189:13-42
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:188:13-46
+activity#cn.xsjky.android.ui.IsAcceptDetailActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:191:9-62
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:191:19-60
+activity#cn.xsjky.android.ui.MadeFrameActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:192:9-57
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:192:19-55
+activity#cn.xsjky.android.ui.SearchActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:193:9-54
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:193:19-52
+activity#cn.xsjky.android.ui.SelectWorkerDialogActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:194:9-196:65
+	android:theme
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:196:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:195:13-58
+service#cn.xsjky.android.service.GetLocationService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:198:9-62
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:198:18-60
+service#cn.jpush.android.service.PushService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:199:9-209:19
+	android:enabled
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:201:13-35
+	android:exported
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:202:13-37
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:200:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:203:13-208:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:204:17-74
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:204:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:205:17-72
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:205:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:206:17-77
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:206:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:207:17-75
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:207:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:213:9-222:19
+	android:enabled
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:215:13-35
+	android:exported
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:216:13-36
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:214:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+cn.xsjky.android
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:217:13-221:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:218:17-79
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:218:25-77
+category#cn.xsjky.android
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:220:17-60
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:220:27-58
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:225:9-244:20
+	android:enabled
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:227:13-35
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:226:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+cn.xsjky.android
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:228:13-232:29
+	android:priority
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:228:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:229:17-93
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:229:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:233:13-236:29
+action#android.intent.action.USER_PRESENT
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:234:17-76
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:234:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:235:17-78
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:235:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:238:13-243:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:239:17-77
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:239:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:240:17-79
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:240:25-77
+activity#cn.jpush.android.ui.PushActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:246:9-256:20
+	android:exported
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:249:13-37
+	android:configChanges
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:248:13-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:247:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+cn.xsjky.android
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:250:13-255:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:251:17-74
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:251:25-72
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:253:17-75
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:253:27-73
+service#cn.jpush.android.service.DownloadService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:258:9-261:39
+	android:enabled
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:260:13-35
+	android:exported
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:261:13-37
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:259:13-68
+service#com.baidu.trace.LBSTraceService
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:262:9-265:38
+	android:enabled
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:264:13-35
+	android:exported
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:265:13-36
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:263:13-59
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:267:9-74
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:267:19-72
+receiver#cn.xsjky.android.recive.MyReceiver
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:270:9-290:20
+	android:enabled
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:272:13-35
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:271:13-46
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.xsjky.android
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:273:13-289:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:276:17-78
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:276:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:278:17-82
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:278:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:280:17-87
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:280:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:282:17-85
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:282:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:284:17-90
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:284:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:286:17-76
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:286:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:298:9-300:48
+	android:value
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:300:13-46
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:299:13-41
+meta-data#JPUSH_APPKEY
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:302:9-304:55
+	android:value
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:304:13-53
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:303:13-40
+activity#cn.xsjky.android.ui.MassOutActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:306:9-55
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:306:19-53
+activity#cn.xsjky.android.ui.ChangePswActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:307:9-57
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:307:19-55
+activity#cn.xsjky.android.ui.CallAddDocumentActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:308:9-63
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:308:19-61
+activity#cn.xsjky.android.ui.SelectCustomRecive
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:309:9-58
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:309:19-56
+activity#cn.xsjky.android.ui.GetCustomerShippersActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:310:9-67
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:310:19-65
+activity#cn.xsjky.android.ui.ErrorDocumentActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:311:9-61
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:311:19-59
+activity#cn.xsjky.android.ui.SynDataActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:316:9-55
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:316:19-53
+activity#cn.xsjky.android.ui.AddCutomerActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:322:9-323:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:322:19-56
+activity#cn.xsjky.android.ui.CustomerManagerActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:324:9-325:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:324:19-61
+activity#cn.xsjky.android.ui.SendQuestActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:326:9-327:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:326:19-55
+activity#cn.xsjky.android.ui.SelectAddressActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:328:9-329:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:328:19-59
+activity#cn.xsjky.android.ui.AddAddressActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:330:9-331:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:330:19-56
+activity#cn.xsjky.android.ui.GetLocationActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:332:9-333:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:332:19-57
+activity#cn.xsjky.android.ui.UpdateCargoInfosActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:334:9-335:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:334:19-62
+activity#cn.xsjky.android.ui.MapActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:336:9-337:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:336:19-49
+activity#cn.xsjky.android.ui.SelectCustomActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:338:9-339:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:338:19-58
+activity#cn.xsjky.android.ui.QueryUnFinishDocumentActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:340:9-341:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:340:19-67
+activity#cn.xsjky.android.ui.StatBarDemoActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:342:9-343:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:342:19-57
+activity#cn.xsjky.android.ui.NewActivityInfoActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:344:9-345:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:344:19-61
+activity#cn.xsjky.android.ui.QueryDocument
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:346:9-347:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:346:19-51
+activity#cn.xsjky.android.ui.QueryDocumentDetailActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:348:9-349:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:348:19-65
+activity#cn.xsjky.android.ui.ImageDetailActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:350:9-351:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:350:19-57
+activity#cn.xsjky.android.ui.StatisticsDocumentActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:352:9-355:20
+	android:theme
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:354:13-69
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:353:13-58
+activity#cn.xsjky.android.ui.LbsLoactionActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:356:9-357:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:356:19-57
+activity#cn.xsjky.android.ui.SearchActivityByNumber
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:358:9-359:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:358:19-60
+activity#cn.xsjky.android.ui.CustomManagerActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:360:9-361:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:360:19-59
+activity#cn.xsjky.android.ui.AActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:362:9-363:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:362:19-47
+activity#cn.xsjky.android.ui.CountWeightActivity
+ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:364:9-365:20
+	android:name
+		ADDED from C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\src\main\AndroidManifest.xml:364:19-57
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\OK\AndroidStudioProjects\Xsjky-android2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:22:13-58

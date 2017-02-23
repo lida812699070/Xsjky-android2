@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\imageViewTouch\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\imageViewTouch\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 46,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\imageViewTouch\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 46,
+                        "endOffset": 149
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\OK\\Downloads\\TileView-master\\ImageViewTouchTest\\imageViewTouch\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "C:\\Users\\OK\\Downloads\\TileView-master\\ImageViewTouchTest\\imageViewTouch\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 46,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "C:\\Users\\OK\\Downloads\\TileView-master\\ImageViewTouchTest\\imageViewTouch\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 46,
+                        "endOffset": 149
+                    }
+                }
+            }
+        ]
+    }
+]

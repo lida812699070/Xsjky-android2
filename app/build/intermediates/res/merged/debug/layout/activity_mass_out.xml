@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/weiget_head" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/main_receive_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:background="@drawable/ic_item_bg"
+                android:orientation="vertical"
+                android:padding="8dip"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:text="@string/reciveNum"
+                        android:singleLine="true"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:inputType="number"
+                        android:id="@+id/handover_toemployee"
+                        android:layout_width="0dp"
+                        android:layout_height="40dip"
+                        android:layout_weight="2"
+                        android:background="@drawable/edittext_bg"
+                        android:singleLine="true"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+                    <Button
+                        android:id="@+id/btn_addhandover_scanner"
+                        android:onClick="scanner"
+                        android:text="@string/scanner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/ll_add_downloadActors"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip">
+                    <Button
+                        android:id="@+id/btn_add_downloadActors"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dip"
+                        android:layout_weight="2"
+                        android:text="@string/addActors"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/et_search_address"
+                        android:hint="@string/searchAdress"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/btn_search_address"
+                        android:text="@string/search"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_mode_flag2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:id="@+id/ckb_select_all_true"
+                        android:text="@string/select_all"
+                        android:textColor="#000"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <CheckBox
+                        android:id="@+id/ckb_select_all_false"
+                        android:text="@string/no_check"
+                        android:textColor="#000"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:text="@string/return_all"
+                        android:id="@+id/btn_return_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tv_select_tracking"
+                        android:text="@string/select"
+                        style="@style/ItemTextViewStyle2" />
+                    <TextView
+                        android:text="@string/Adress"
+                        style="@style/ItemTextViewStyle2" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="@string/document_num"
+                        style="@style/ItemTextViewStyle2" />
+                    <TextView
+                        android:text="@string/qty"
+                        style="@style/ItemTextViewStyle2" />
+                </LinearLayout>
+                <ListView
+                    android:dividerHeight="2dp"
+                    android:id="@+id/lv_tracking"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></ListView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

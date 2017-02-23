@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_item_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingTop="6dp"
+
+    >
+
+    <TextView
+        android:id="@+id/carriage_item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="111"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/carriage_item_value"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="111"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/btn_carriage_item_del"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:visibility="visible"/>
+
+</LinearLayout>

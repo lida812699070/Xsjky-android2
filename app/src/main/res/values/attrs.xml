@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NiceSpinner">
+        <attr name="arrowTint" format="color" />
+        <attr name="hideArrow" format="boolean" />
+        <attr name="backgroundSelector" format="integer"/>
+        <attr name="textTint" format="color"/>
+    </declare-styleable>
+
+    <!--折线图自定义属性-->
+    <!--坐标轴线条粗细-->
+    <attr name="coordinatesLineWidth" format="dimension"/>
+    <!--坐标轴字体大小-->
+    <attr name="coordinatesTextSize" format="dimension"/>
+    <!--坐标轴字体颜色-->
+    <attr name="coordinatesTextColor" format="color"/>
+    <!--坐标轴颜色-->
+    <attr name="lineColor" format="color"/>
+    <!--折现粗细-->
+    <attr name="lineWidth" format="dimension"/>
+    <!--小圆点半径-->
+    <attr name="averageCircleradius" format="dimension"/>
+    <!--表格的数据类型-->
+    <attr name="tableType" format="string"/>
+    <!--大圆点的颜色-->
+    <attr name="maxcircleColor" format="color"/>
+    <!--小圆点的颜色-->
+    <attr name="mincircleColor" format="color"/>
+    <!--背景颜色-->
+    <attr name="bgColor" format="color"/>
+
+    <declare-styleable name="HealthTableView">
+        <attr name="coordinatesLineWidth"/>
+        <attr name="coordinatesTextSize"/>
+        <attr name="coordinatesTextColor"/>
+        <attr name="lineColor"/>
+        <attr name="lineWidth"/>
+        <attr name="averageCircleradius"/>
+        <attr name="tableType"/>
+        <attr name="maxcircleColor"/>
+        <attr name="mincircleColor"/>
+        <attr name="bgColor"/>
+    </declare-styleable>
+
+    <attr name="titleTextcus" format="string" />
+    <attr name="titleTextColorcus" format="color" />
+    <attr name="titleTextSizecus" format="dimension" />
+    <attr name="firstcolor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="speed" format="integer" />
+    <attr name="dotCount" format="integer" />
+    <attr name="splitSize" format="integer" />
+    <attr name="bg" format="reference" />
+    <attr name="color_no_finger_inner_circle" format="color" />
+    <attr name="color_no_finger_outer_circle" format="color" />
+    <attr name="color_finger_on" format="color" />
+    <attr name="color_finger_up" format="color" />
+    <attr name="count" format="integer" />
+    <attr name="tryTimes" format="integer" />
+    <attr name="borderRadius" format="dimension" />
+
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+    <declare-styleable name="GestureLockViewGroup">
+        <attr name="color_no_finger_inner_circle" />
+        <attr name="color_no_finger_outer_circle" />
+        <attr name="color_finger_on" />
+        <attr name="color_finger_up" />
+        <attr name="count" />
+        <attr name="tryTimes" />
+    </declare-styleable>
+    <declare-styleable name="customProgressBar">
+        <attr name="firstcolor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
+    </declare-styleable>
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleTextcus" />
+        <attr name="titleTextColorcus" />
+        <attr name="titleTextSizecus" />
+    </declare-styleable>
+    <declare-styleable name="CustomVolumControlBar">
+        <attr name="firstcolor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="dotCount" />
+        <attr name="splitSize" />
+        <attr name="bg" />
+    </declare-styleable>
+</resources>

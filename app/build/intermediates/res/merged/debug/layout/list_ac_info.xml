@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_ac_info_tocity"
+        style="@style/ItemTextViewStyle"/>
+
+    <TextView
+        android:id="@+id/item_ac_info_shipname"
+        style="@style/ItemTextViewStyle"/>
+
+    <TextView
+        android:id="@+id/item_ac_info_custom"
+        style="@style/ItemTextViewStyle"/>
+
+    <TextView
+        android:id="@+id/item_ac_info_conginess"
+        style="@style/ItemTextViewStyle"/>
+
+    <TextView
+        android:id="@+id/item_ac_info_shipmode"
+        style="@style/ItemTextViewStyle"/>
+
+    <TextView
+        android:id="@+id/item_ac_info_goodsname"
+        style="@style/ItemTextViewStyle"/>
+</LinearLayout>

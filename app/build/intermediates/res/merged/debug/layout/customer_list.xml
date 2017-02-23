@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:hint="请输入公司名或关键字"
+        android:id="@+id/et_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:dividerHeight="5dp"
+        android:id="@+id/customer_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/ic_list_item_separate"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+</LinearLayout>

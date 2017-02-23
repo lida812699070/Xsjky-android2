@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/weiget_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDocumentNum"
+            style="@style/ItemTextViewStyle"
+            android:text="@string/documentNum" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_picture"
+                style="@style/ItemTextViewStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="lookPic"
+                android:text="@string/lookPic"
+                android:textColor="#00f" />
+            <Button
+                android:id="@+id/btnPrintDocument"
+                android:text="运单详情"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <ListView
+            android:id="@+id/lv_SpMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

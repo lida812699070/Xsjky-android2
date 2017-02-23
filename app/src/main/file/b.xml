@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body>
+        <QueryCustomerSpecificationsResponse xmlns="http://www.xsjky.cn/">
+            <QueryCustomerSpecificationsResult>
+                <ReturnCode>0</ReturnCode>
+                <ReturnList>
+                    <CustomerSpecification>
+                        <ProductId>7</ProductId>
+                        <ProductDescription>特大</ProductDescription>
+                        <Weight>150.0000</Weight>
+                        <Length>5.0000</Length>
+                        <Width>4.0000</Width>
+                        <Height>3.0000</Height>
+                    </CustomerSpecification>
+                    <CustomerSpecification>
+                        <ProductId>8</ProductId>
+                        <ProductDescription>中</ProductDescription>
+                        <Weight>5.0000</Weight>
+                        <Length>3.0000</Length>
+                        <Width>2.0000</Width>
+                        <Height>1.0000</Height>
+                    </CustomerSpecification>
+                    <CustomerSpecification>
+                        <ProductId>9</ProductId>
+                        <ProductDescription>小</ProductDescription>
+                        <Weight>3.0000</Weight>
+                        <Length>1.0000</Length>
+                        <Width>2.0000</Width>
+                        <Height>3.0000</Height>
+                    </CustomerSpecification>
+                </ReturnList>
+                <RecordCount>3</RecordCount>
+            </QueryCustomerSpecificationsResult>
+        </QueryCustomerSpecificationsResponse>
+    </soap:Body>
+</soap:Envelope>

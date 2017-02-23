@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/weiget_head"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_addcustomerAc_CustomerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="公司名称"
+                app:met_baseColor="@color/met_underlineColor"
+                app:met_underlineColor="@color/met_underlineColor"
+                app:met_textColorHint="@color/met_textColorHint"
+                app:met_textColor="@color/met_textColor"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="请输入公司名称"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_addcustomerAc_Fax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:focusableInTouchMode="true"
+                android:hint="传真(可为空)"
+                app:met_baseColor="@color/met_underlineColor"
+                app:met_underlineColor="@color/met_underlineColor"
+                app:met_textColorHint="@color/met_textColorHint"
+                app:met_textColor="@color/met_textColor"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="请输入传真号码"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_addcustomerAc_ContactPerson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:focusableInTouchMode="true"
+                android:hint="联系人"
+                app:met_baseColor="@color/met_underlineColor"
+                app:met_underlineColor="@color/met_underlineColor"
+                app:met_textColorHint="@color/met_textColorHint"
+                app:met_textColor="@color/met_textColor"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="请输入联系人"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_addcustomerAc_Tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:focusableInTouchMode="true"
+                android:hint="电话号码"
+                app:met_baseColor="@color/met_underlineColor"
+                app:met_underlineColor="@color/met_underlineColor"
+                app:met_textColorHint="@color/met_textColorHint"
+                app:met_textColor="@color/met_textColor"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="请输入电话号码"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_addcustomerAc_Remarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:focusableInTouchMode="true"
+                android:hint="备注(可为空)"
+                app:met_baseColor="@color/met_underlineColor"
+                app:met_underlineColor="@color/met_underlineColor"
+                app:met_textColorHint="@color/met_textColorHint"
+                app:met_textColor="@color/met_textColor"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="请输入备注"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是否接收短信"
+                    android:textColor="@color/met_textColor"
+                    android:textSize="18sp"/>
+
+                <views.NiceSpinner
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/nice_spinner_addCustomAc_SmsReciviceSelect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/met_textColorHint"
+                android:id="@+id/et_addCustomerAc_shipper_province"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_bg"
+                android:focusable="false"
+                android:hint="选择城市"
+                android:text="广东省,深圳市,宝安区"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:textColorHint="@color/met_textColorHint"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_addCustomerAc_shipper_Address"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:background="@drawable/edittext_bg"
+                android:hint="详细地址"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/btn_addCustomerAc_add"
+                android:text="确认"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

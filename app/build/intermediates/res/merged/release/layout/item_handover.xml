@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_item"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_time"
+        android:text="@string/time"
+        style="@style/ItemTextViewStyle"/>
+    <TextView
+        android:id="@+id/tv_destination"
+        android:text="@string/destination"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_poll"
+        android:text="@string/poll"
+        style="@style/ItemTextViewStyle" />
+    <TextView
+        android:id="@+id/tv_state"
+        android:text="@string/state"
+        style="@style/ItemTextViewStyle"/>
+</LinearLayout>

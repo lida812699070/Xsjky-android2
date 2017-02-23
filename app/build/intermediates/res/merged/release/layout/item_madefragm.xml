@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <EditText
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/et_madeframe_with"
+            android:inputType="number"
+            android:id="@+id/et_madeframe_length"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/length" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/et_madeframe_height"
+            android:inputType="number"
+            android:id="@+id/et_madeframe_with"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/with" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/et_madeframe_qty"
+            android:inputType="number"
+            android:id="@+id/et_madeframe_height"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/height" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/et_madeframe_remark"
+            android:inputType="number"
+            android:id="@+id/et_madeframe_qty"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/qty" />
+
+        <Button
+            android:id="@+id/btn_madeframe_del"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <EditText
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:id="@+id/et_madeframe_remark"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/remark" />
+    </LinearLayout>
+</LinearLayout>

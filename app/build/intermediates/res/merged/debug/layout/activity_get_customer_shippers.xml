@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/weiget_head" />
+    <TextView
+        android:id="@+id/tv_customName"
+        android:layout_margin="5dp"
+        android:text="新世纪"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="@string/synSendPerson"
+            android:onClick="synSendPerson"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="选择收件人"
+            android:layout_margin="5dp"
+            android:id="@+id/btn_selectRecive"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_selectOk"
+            android:text="确定"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:listSelector="#500f"
+        android:id="@+id/lv_activityGetCustomerShippers"
+        android:layout_width="match_parent"
+        android:dividerHeight="18dp"
+        android:layout_height="match_parent" />
+</LinearLayout>

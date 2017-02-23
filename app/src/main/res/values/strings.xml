@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">的的发货(司机)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dh">单号：</string>
+    <string name="tel">收件人电话：</string>
+    <string name="adress">地址：</string>
+    <string name="number">件数：</string>
+    <string name="weiget">重量：</string>
+    <string name="docName">姓名</string>
+    <string name="docNum">单号</string>
+    <string name="docTel">电话</string>
+    <string name="docadress1">地址一</string>
+    <string name="docaddress2">地址二</string>
+    <string name="docQuantity">件数</string>
+    <string name="docWeight">重量</string>
+    <string name="docShipping">运输方式</string>
+    <string name="docShippingStatus">运输状态</string>
+    <string name="time">时间</string>
+    <string name="destination">目的地</string>
+    <string name="state">状态</string>
+    <string name="poll">票数</string>
+    <string name="address">地址</string>
+    <string name="tocity">目的城市</string>
+    <string name="docuNUm">单号</string>
+    <string name="qty">件数</string>
+    <string name="weight">重量</string>
+    <string name="vol">体积</string>
+    <string name="returnOut">转</string>
+    <string name="Isrevice">确认接收</string>
+    <string name="documentNum">单号：</string>
+    <string name="sendName">发件人：</string>
+    <string name="actors">搬运工：</string>
+    <string name="length">长度</string>
+    <string name="with">宽度</string>
+    <string name="height">高度</string>
+    <string name="worker">制作</string>
+    <string name="delete">删除</string>
+    <string name="remark">备注</string>
+    <string name="sdk_name">Baidu Navigation SDK Demo</string>
+    <string-array name="sdkapi_items">
+        <item>关键字搜索</item>
+        <item>周边搜索</item>
+        <item>手机语音识别</item>
+        <item>外部语音流识别</item>
+        <item>TTS</item>
+        <item>反GEO</item>
+        <item>线路规划demo1</item>
+        <item>线路规划demo2</item>
+        <item>离线数据管理</item>
+        <item>自定义图层</item>
+    </string-array>
+    <string name="search_start">搜索</string>
+    <string name="search_tips">离线检索需要使用"导航离线数据下载"demo下载数据之后才能正常使用！检索范围固定为广东省-深圳市，其他城市请修改demo源代码。</string>
+    <string name="antigeo_tips">离线反geo需要使用"导航离线数据下载"demo下载数据之后才能正常使用！</string>
+    <string name="asr_tips">语音识别需要使用"导航离线数据下载"demo下载广东数据之后才能正常使用！其他城市请修改demo源代码。</string>
+    <string name="suggest_start">提示</string>
+    <string name="search_hint">请输入关键字</string>
+    <string name="record_recording">\u2026正在录音\u2026</string>
+    <string name="record_recognizing">\u2026正在识别\u2026</string>
+    <string name="voiceinput">外部语音流识别</string>
+    <string name="voicenormal">手机语音流识别</string>
+    <string name="keyword_search">关键字搜索</string>
+    <string name="space_search">周边搜索</string>
+    <string name="search_result">搜索结果</string>
+    <string name="search_empty">识别结果为空</string>
+    <string name="search_fail">识别无效</string>
+    <string name="record_start">点击开启</string>
+
+    <!-- 离线数据管理 -->
+    <string name="title_route_guide_demo">1. GPS导航(RouteGuideDemo)</string>
+    <string name="title_route_plan_demo">2. 路线规划(RoutePlanDemo)</string>
+    <string name="title_cruiser">3. 电子狗(CruiserDemo)</string>
+    <string name="title_layer">4. 自定义地图图层(MapLayerDemo)</string>
+    <string name="title_offline_data">5. 导航离线数据下载(DownloadDemo)</string>
+    <string name="title_keyword_search">6. POI搜索-关键字(KeySearchDemo)</string>
+    <string name="title_nearby">7. POI搜索-分类(CatalogSearchDemo)</string>
+    <string name="title_degeo">8. 反GEO(ReverseGeoDemo)</string>
+    <string name="title_tts">9. TTS-Text To Speech(TTSDemo)</string>
+    <string name="title_asr">10. 语音识别(VoiceDemo)</string>
+    <string name="title_asr_input">11. 外部语音识别(VoiceInputDemo)</string>
+    <string name="title_key_verify_demo">12. 密钥验证(KeyVerifyDemo)</string>
+    <string name="title_charset_change_demo">13. 简体繁体转换(CharsetChangeDemo)</string>
+    <string name="online">在线</string>
+    <string name="offline">离线</string>
+
+    <!-- 繁体简体切换 -->
+    <string name="change_to_simplified">地图切换为简体</string>
+    <string name="change_to_traditional">地图切换为繁体</string>
+    <string name="change_to_simplified_tips">已切换为简体，请在地图图层页看效果</string>
+    <string name="change_to_traditional_tips">已切换为繁体，请在地图图层页看效果</string>
+    <string name="reciveNum">接收人工号</string>
+    <string name="scanner">扫描</string>
+    <string name="addActors">添加搬运工：</string>
+    <string name="searchAdress">查询的目的地</string>
+    <string name="search">查询</string>
+    <string name="returnAll">全部转出</string>
+    <string name="select_all">全选</string>
+    <string name="no_check">反选</string>
+    <string name="return_all">全部转出</string>
+    <string name="select">选择</string>
+    <string name="Adress">目的地</string>
+    <string name="document_num">单号</string>
+    <string name="back">返回</string>
+    <string name="ok">确定</string>
+    <string name="oldPsw">请输入原密码</string>
+    <string name="NewPsw1">请输入新密码</string>
+    <string name="NewPsw2">请确认密码</string>
+    <string name="help">帮助</string>
+    <string name="quit">退出</string>
+    <string name="settings">设置</string>
+    <string name="string_help_text">该应用目前缺少必要的权限。请点击设置开启相关权限。打开</string>
+    <string name="comp">公司</string>
+    <string name="phone">电话</string>
+    <string name="del">删除</string>
+    <string name="recivecom">收件单位</string>
+    <string name="synSendPerson">同步发件人</string>
+    <string name="linkman">联系人</string>
+    <string name="phonenum">手机号</string>
+    <string name="AddressDetial">详细地址</string>
+    <string name="location">定位</string>
+    <string name="lookPic">查看签收图</string>
+    <string name="nextPic">下一张</string>
+    <string name="daysum">日统计</string>
+    <string name="monthsum">月统计</string>
+    <string name="weeksum">周统计</string>
+    <string name="company">公司</string>
+    <string name="customName">客户名</string>
+    <string name="count">计算</string>
+    <string name="remarker">备注</string>
+</resources>

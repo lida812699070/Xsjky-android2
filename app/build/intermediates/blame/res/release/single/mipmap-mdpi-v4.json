@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\icon_meitu_2.jpg",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\mipmap-mdpi\\icon_meitu_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\logo1.png",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\mipmap-mdpi\\logo1.png"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\aliuser_table_arrow.png",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\mipmap-mdpi\\aliuser_table_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\icon_count_deflault.png",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\mipmap-mdpi\\icon_count_deflault.png"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\icon_count_weight_press.png",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\mipmap-mdpi\\icon_count_weight_press.png"
+    }
+]

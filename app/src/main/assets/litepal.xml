@@ -1,0 +1,20 @@
+<?xml version="1.3" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="mydb"></dbname>
+
+    <version value="4"></version>
+
+    <list>
+        <mapping class="cn.xsjky.android.model.Custom"></mapping>
+        <mapping class="cn.xsjky.android.model.SendPeroson"></mapping>
+        <mapping class="cn.xsjky.android.model.Recivicer"></mapping>
+        <mapping class="cn.xsjky.android.model.Coordinate"></mapping>
+        <mapping class="cn.xsjky.android.model.CoordinateBean"></mapping>
+        <mapping class="cn.xsjky.android.model.Company"></mapping>
+        <mapping class="cn.xsjky.android.model.PrintDocumentInfo"></mapping>
+        <mapping class="cn.xsjky.android.model.Consignee"></mapping>
+        <mapping class="cn.xsjky.android.model.CustomOtherInfos"></mapping>
+        <mapping class="cn.xsjky.android.model.ShipPerson"></mapping>
+    </list>
+</litepal>

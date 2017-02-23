@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/weiget_head" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:dividerHeight="2dp"
+        android:divider="#888"
+        android:background="#fff"
+        android:id="@+id/lv_Handover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

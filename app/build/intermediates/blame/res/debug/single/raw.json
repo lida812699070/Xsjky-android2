@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\city.s3db",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\raw\\city.s3db"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\my.ogg",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\raw\\my.ogg"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bird.ogg",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\raw\\bird.ogg"
+    }
+]

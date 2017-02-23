@@ -1,0 +1,30 @@
+[
+  {
+    "ReceiverId": 1,
+    "ReceiverName": "新世纪",
+    "ContactPerson": "小丽",
+    "AreaCode": "",
+    "TelNumber": "",
+    "Mobile": "15820146511",
+    "Address": "广东省 深圳市 福田区 深南大道6006号 ",
+    "Coordinate": {
+      "Longitude": 114.054039,
+      "Latitude": 22.546654
+    },
+    "Remarks": ""
+  },
+  {
+    "ReceiverId": 2,
+    "ReceiverName": "唯品会",
+    "ContactPerson": "古小倩",
+    "AreaCode": "",
+    "TelNumber": "",
+    "Mobile": "15820146512",
+    "Address": "广东省 深圳市 龙岗区 吉昌巷5 ",
+    "Coordinate": {
+      "Longitude": 114.131940,
+      "Latitude": 22.609517
+    },
+    "Remarks": ""
+  }
+]
