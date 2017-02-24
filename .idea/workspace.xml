@@ -79,8 +79,8 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/xsjky/android/ui/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4903846">
-              <caret line="539" column="24" selection-start-line="539" selection-start-column="24" selection-end-line="539" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.46291208">
+              <caret line="538" column="32" selection-start-line="538" selection-start-column="32" selection-end-line="538" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -3702,7 +3702,13 @@
       <option name="project" value="LOCAL" />
       <updated>1487910967956</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="11">
+      <created>1487917532634</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1487917532634</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3875,8 +3881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/xsjky/android/ui/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4903846">
-          <caret line="539" column="24" selection-start-line="539" selection-start-column="24" selection-end-line="539" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.46291208">
+          <caret line="538" column="32" selection-start-line="538" selection-start-column="32" selection-end-line="538" selection-end-column="32" />
           <folding />
         </state>
       </provider>
