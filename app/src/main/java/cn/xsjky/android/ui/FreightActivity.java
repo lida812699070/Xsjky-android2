@@ -527,7 +527,7 @@ public class FreightActivity extends Activity {
             String toCity = mDocument.getToCity();
             LogU.e(toCity);
             printer.esc.text.printOut(JQPrinter.ALIGN.CENTER, ESC.FONT_HEIGHT.x24, false,
-                    ESC.TEXT_ENLARGE.HEIGHT_WIDTH_DOUBLE, mDocument.getFromCity() + "-->" + "荊州");
+                    ESC.TEXT_ENLARGE.HEIGHT_WIDTH_DOUBLE, mDocument.getFromCity() + "-->" + toCity);
             printer.esc.feedEnter();
             printer.esc.text.printOut(JQPrinter.ALIGN.LEFT, ESC.FONT_HEIGHT.x24, false,
                     ESC.TEXT_ENLARGE.HEIGHT_WIDTH_DOUBLE, "件数：" + mDocument.getQuantity() + "/" + i);
