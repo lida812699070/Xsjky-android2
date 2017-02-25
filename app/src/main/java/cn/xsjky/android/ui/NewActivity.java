@@ -1240,6 +1240,7 @@ public class NewActivity extends BaseActivity {
                     dialog1.show();
                     break;
                 case R.id.new_shipper_btn:
+
                     /*if (!NetworkDetector.detect(NewActivity.this)){
                         Tos("当前没有网络，请检查网络");
                         return;

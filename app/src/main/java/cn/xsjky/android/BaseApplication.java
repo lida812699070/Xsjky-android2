@@ -10,7 +10,11 @@ import android.content.SharedPreferences.Editor;
 import android.content.res.AssetManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
+import android.os.Handler;
 import android.os.HandlerThread;
+import android.os.Looper;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.baidu.location.BDLocation;
 import com.baidu.mapapi.SDKInitializer;
@@ -18,6 +22,7 @@ import com.baidu.mapapi.model.LatLng;
 import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.DbUtils;
 import com.lidroid.xutils.HttpUtils;
+import com.wanjian.cockroach.Cockroach;
 
 import org.litepal.LitePalApplication;
 import org.litepal.tablemanager.Connector;
@@ -103,6 +108,15 @@ public class BaseApplication extends LitePalApplication {
     @Override
     public void onCreate() {
         super.onCreate();
+        Cockroach.install(new Cockroach.ExceptionHandler() {
+
+            // handlerException内部建议手动try{  你的异常处理逻辑  }catch(Throwable e){ } ，以防handlerException内部再次抛出异常，导致循环调用handlerException
+
+            @Override
+            public void handlerException(final Thread thread, final Throwable throwable) {
+                Log.e("AndroidRuntime", "--->CockroachException:" + thread + "<---", throwable);
+            }
+        });
         JPushInterface.setDebugMode(false);
         JPushInterface.init(getApplicationContext());
         mBaseApplication = this;
