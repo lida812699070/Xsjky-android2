@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <soap:Body>
-        <QueryCustomerSpecificationsResponse xmlns="http://www.xsjky.cn/">
-            <QueryCustomerSpecificationsResult>
-                <ReturnCode>0</ReturnCode>
-                <ReturnList>
-                    <CustomerSpecification>
-                        <ProductId>7</ProductId>
-                        <ProductDescription>特大</ProductDescription>
-                        <Weight>150.0000</Weight>
-                        <Length>5.0000</Length>
-                        <Width>4.0000</Width>
-                        <Height>3.0000</Height>
-                    </CustomerSpecification>
-                    <CustomerSpecification>
-                        <ProductId>8</ProductId>
-                        <ProductDescription>中</ProductDescription>
-                        <Weight>5.0000</Weight>
-                        <Length>3.0000</Length>
-                        <Width>2.0000</Width>
-                        <Height>1.0000</Height>
-                    </CustomerSpecification>
-                    <CustomerSpecification>
-                        <ProductId>9</ProductId>
-                        <ProductDescription>小</ProductDescription>
-                        <Weight>3.0000</Weight>
-                        <Length>1.0000</Length>
-                        <Width>2.0000</Width>
-                        <Height>3.0000</Height>
-                    </CustomerSpecification>
-                </ReturnList>
-                <RecordCount>3</RecordCount>
-            </QueryCustomerSpecificationsResult>
-        </QueryCustomerSpecificationsResponse>
-    </soap:Body>
-</soap:Envelope>
+<QueryResultOfSimpleDocument xmlns="http://www.xsjky.cn/"
+                             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ReturnCode>-1</ReturnCode>
+    <Error>LogisticsDAL.Data.CustomerObject(34)</Error>
+    <StackTrace>在
+        DevExpress.Data.Filtering.Helpers.MsSqlWhereGenerator.DevExpress.Data.Filtering.ICriteriaVisitor&lt;System.String&gt;.Visit(OperandValue
+        theOperand)
+        在 DevExpress.Data.Filtering.OperandValue.Accept[T](ICriteriaVisitor`1 visitor)
+        在 DevExpress.Data.Filtering.Helpers.BaseWhereGenerator.Process(CriteriaOperator operand)
+        在
+        DevExpress.Data.Filtering.Helpers.BaseWhereGenerator.DevExpress.Data.Filtering.ICriteriaVisitor&lt;System.String&gt;.Visit(InOperator
+        theOperator)
+        在 DevExpress.Data.Filtering.InOperator.Accept[T](ICriteriaVisitor`1 visitor)
+        在 DevExpress.Data.Filtering.Helpers.BaseWhereGenerator.Process(CriteriaOperator operand)
+        在
+        DevExpress.Data.Filtering.Helpers.BaseWhereGenerator.DevExpress.Data.Filtering.ICriteriaVisitor&lt;System.String&gt;.Visit(GroupOperator
+        theOperator)
+        在 DevExpress.Data.Filtering.GroupOperator.Accept[T](ICriteriaVisitor`1 visitor)
+        在 DevExpress.Data.Filtering.Helpers.BaseWhereGenerator.Process(CriteriaOperator operand)
+        在 DevExpress.Data.Filtering.CriteriaToWhereClauseHelper.GetMsSqlWhere(CriteriaOperator op)
+        在 LogisticsDAL.Data.ObjectControler`2.GetRecordCount(Session session, CriteriaOperator
+        filter) 位置 G:\SourceCode\XinShiJi\Logistics_XSJ\LogisticsDAL\Data\ObjectControler.cs:行号 225
+        在
+        LogisticsDAL.Data.ShippingDocumentObject.ShippingDocumentControler.QueryBySalesman(LoginSession
+        loginInfo, Int32 pageNumber, Int32 pageSize, String sortProperty, Boolean sortDescend,
+        Boolean returnList, DateTime beginTime, DateTime endTime, String customerName, String
+        documentNumber, Int32&amp; recCount) 位置
+        G:\SourceCode\XinShiJi\Logistics_XSJ\LogisticsDAL\Data\ShippingDocumentObject.cs:行号 2726
+        在 LogisticsDAL.LogisticsServer.DocumentQueryBySalesman(String sessionId, Int32 userId,
+        String clientName, Int32 pageNumber, Int32 pageSize, String sortProperty, Boolean
+        sortDescend, Boolean returnList, DateTime beginTime, DateTime endTime, String customerName,
+        String documentNumber) 位置
+        G:\SourceCode\XinShiJi\Logistics_XSJ\LogisticsDAL\LogisticsServer.asmx.cs:行号 3169
+    </StackTrace>
+    <ErrorSource>DevExpress.Data.v15.1</ErrorSource>
+    <RecordCount>0</RecordCount>
+</QueryResultOfSimpleDocument>

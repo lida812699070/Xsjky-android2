@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.xsjky.android"
-    android:versionCode="26"
-    android:versionName="1.6.7" >
+    android:versionCode="28"
+    android:versionName="1.6.8" >
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="24" />
 
     <permission
         android:name="cn.xsjky.android.permission.JPUSH_MESSAGE"
@@ -362,6 +362,8 @@
         <activity android:name="cn.xsjky.android.ui.AActivity" >
         </activity>
         <activity android:name="cn.xsjky.android.ui.CountWeightActivity" >
+        </activity>
+        <activity android:name="cn.xsjky.android.ui.DocumentQueryBySalesmanActivity" >
         </activity>
 
         <meta-data

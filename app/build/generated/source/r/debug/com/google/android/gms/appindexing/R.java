@@ -8,43 +8,43 @@ package com.google.android.gms.appindexing;
 
 public final class R {
 	public static final class attr {
-		public static final int circleCrop = 0x7f010079;
-		public static final int imageAspectRatio = 0x7f010078;
-		public static final int imageAspectRatioAdjust = 0x7f010077;
+		public static final int circleCrop = 0x7f0100f2;
+		public static final int imageAspectRatio = 0x7f0100f1;
+		public static final int imageAspectRatioAdjust = 0x7f0100f0;
 	}
 	public static final class color {
-		public static final int common_action_bar_splitter = 0x7f0d0016;
-		public static final int common_signin_btn_dark_text_default = 0x7f0d0017;
-		public static final int common_signin_btn_dark_text_disabled = 0x7f0d0018;
-		public static final int common_signin_btn_dark_text_focused = 0x7f0d0019;
-		public static final int common_signin_btn_dark_text_pressed = 0x7f0d001a;
-		public static final int common_signin_btn_default_background = 0x7f0d001b;
-		public static final int common_signin_btn_light_text_default = 0x7f0d001c;
-		public static final int common_signin_btn_light_text_disabled = 0x7f0d001d;
-		public static final int common_signin_btn_light_text_focused = 0x7f0d001e;
-		public static final int common_signin_btn_light_text_pressed = 0x7f0d001f;
-		public static final int common_signin_btn_text_dark = 0x7f0d006a;
-		public static final int common_signin_btn_text_light = 0x7f0d006b;
+		public static final int common_action_bar_splitter = 0x7f0c0017;
+		public static final int common_signin_btn_dark_text_default = 0x7f0c0018;
+		public static final int common_signin_btn_dark_text_disabled = 0x7f0c0019;
+		public static final int common_signin_btn_dark_text_focused = 0x7f0c001a;
+		public static final int common_signin_btn_dark_text_pressed = 0x7f0c001b;
+		public static final int common_signin_btn_default_background = 0x7f0c001c;
+		public static final int common_signin_btn_light_text_default = 0x7f0c001d;
+		public static final int common_signin_btn_light_text_disabled = 0x7f0c001e;
+		public static final int common_signin_btn_light_text_focused = 0x7f0c001f;
+		public static final int common_signin_btn_light_text_pressed = 0x7f0c0020;
+		public static final int common_signin_btn_text_dark = 0x7f0c0076;
+		public static final int common_signin_btn_text_light = 0x7f0c0077;
 	}
 	public static final class drawable {
-		public static final int common_full_open_on_phone = 0x7f020048;
-		public static final int common_ic_googleplayservices = 0x7f020049;
+		public static final int common_full_open_on_phone = 0x7f020056;
+		public static final int common_ic_googleplayservices = 0x7f020057;
 	}
 	public static final class id {
-		public static final int adjust_height = 0x7f0e0045;
-		public static final int adjust_width = 0x7f0e0046;
+		public static final int adjust_height = 0x7f0e0047;
+		public static final int adjust_width = 0x7f0e0048;
 		public static final int none = 0x7f0e0023;
 		public static final int normal = 0x7f0e001f;
-		public static final int wrap_content = 0x7f0e0058;
+		public static final int wrap_content = 0x7f0e0033;
 	}
 	public static final class integer {
-		public static final int google_play_services_version = 0x7f0b0005;
+		public static final int google_play_services_version = 0x7f0b0004;
 	}
 	public static final class raw {
 	}
 	public static final class string {
-		public static final int auth_google_play_services_client_facebook_display_name = 0x7f070045;
-		public static final int auth_google_play_services_client_google_display_name = 0x7f070046;
+		public static final int auth_google_play_services_client_facebook_display_name = 0x7f070052;
+		public static final int auth_google_play_services_client_google_display_name = 0x7f070053;
 		public static final int common_android_wear_notification_needs_update_text = 0x7f070013;
 		public static final int common_android_wear_update_text = 0x7f070014;
 		public static final int common_android_wear_update_title = 0x7f070015;
@@ -79,7 +79,7 @@ public final class R {
 	public static final class style {
 	}
 	public static final class styleable {
-		public static final int[] LoadingImageView = { 0x7f010077, 0x7f010078, 0x7f010079 };
+		public static final int[] LoadingImageView = { 0x7f0100f0, 0x7f0100f1, 0x7f0100f2 };
 		public static final int LoadingImageView_circleCrop = 2;
 		public static final int LoadingImageView_imageAspectRatio = 1;
 		public static final int LoadingImageView_imageAspectRatioAdjust = 0;

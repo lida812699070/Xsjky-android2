@@ -363,6 +363,8 @@
         </activity>
         <activity android:name=".ui.CountWeightActivity">
         </activity>
+        <activity android:name=".ui.DocumentQueryBySalesmanActivity">
+        </activity>
     </application>
 
 </manifest>

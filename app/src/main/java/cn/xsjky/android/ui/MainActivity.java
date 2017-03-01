@@ -164,6 +164,7 @@ public class MainActivity extends BaseActivity {
     private TextView itemStatisticsPrice;
     private ImageView mItemStatisticsflash;
     private RotateAnimation mRotateAnimation;
+    private LinearLayout llQueryBySalesman;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -178,7 +179,7 @@ public class MainActivity extends BaseActivity {
         init();
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-       // client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        // client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     public void showContacts() {
@@ -341,9 +342,9 @@ public class MainActivity extends BaseActivity {
     private void stopreflash(boolean isSuccess) {
         if (mItemStatisticsflash != null && mRotateAnimation != null) {
             mItemStatisticsflash.clearAnimation();
-            if (isSuccess){
+            if (isSuccess) {
                 mItemStatisticsflash.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.success));
-            }else {
+            } else {
                 Tos("加载失败");
             }
             flashHandler.sendEmptyMessageDelayed(STOP_FRFLASH, 1000);
@@ -352,12 +353,12 @@ public class MainActivity extends BaseActivity {
 
     private void setdataToDay(ArrayList<ReceiverStatData> receiverStatDatas) {
 
-        if (receiverStatDatas == null || receiverStatDatas.size() == 0){
+        if (receiverStatDatas == null || receiverStatDatas.size() == 0) {
             Tos("未查询到今天的已签收的订单");
             return;
         }
         ReceiverStatData data = receiverStatDatas.get(0);
-        itemStatisticsPrice.setText("今日累计运费：" + data.getTotalPremium()+"共"+data.getTicketCount()+"票");
+        itemStatisticsPrice.setText("今日累计运费：" + data.getTotalPremium() + "共" + data.getTicketCount() + "票");
     }
 
     private void queryCustomer(final String city, final int pageNumber) {
@@ -388,7 +389,7 @@ public class MainActivity extends BaseActivity {
                 "&customerId="+ "-1"+
                 "&searchName="+ ""+
                 "&searchAddress="+ city;*/
-        BaseApplication.mHttpUtils.send(HttpRequest.HttpMethod.POST, Urls.QueryCustomers,params, new RequestCallBack<String>() {
+        BaseApplication.mHttpUtils.send(HttpRequest.HttpMethod.POST, Urls.QueryCustomers, params, new RequestCallBack<String>() {
             @Override
             public void onSuccess(ResponseInfo<String> responseInfo) {
                 QueryCustomerXmlparser customerXmlparser = RetruenUtils.getReturnInfo(responseInfo.result, new QueryCustomerXmlparser());
@@ -949,10 +950,17 @@ public class MainActivity extends BaseActivity {
         mIvMenu.setOnClickListener(clickListener);
         llErrorDocuments = (LinearLayout) findViewById(id.ll_main_rollin_error_documents);
         llQuery = (LinearLayout) findViewById(id.ll_queryDocument);
+        llQueryBySalesman = (LinearLayout) findViewById(id.ll_queryDocumentBySalesman);
         llQuery.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, QueryUnFinishDocumentActivity.class));
+            }
+        });
+        llQueryBySalesman.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, DocumentQueryBySalesmanActivity.class));
             }
         });
         llMainContentUserBindTool = (LinearLayout) findViewById(id.main_content_userBindTool);
@@ -1006,7 +1014,7 @@ public class MainActivity extends BaseActivity {
         //TODO  测试阶段默认添加
         // if (TextUtils.isEmpty(BaseApplication.userBindTool))
         mLvLeftList.add("客户管理");
-        mLvLeftList.add("查询运单");
+        mLvLeftList.add("查询发货请求");
         mLvLeftList.add("统计");
         //TODO 添加侧滑菜单
         mMenuAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mLvLeftList);

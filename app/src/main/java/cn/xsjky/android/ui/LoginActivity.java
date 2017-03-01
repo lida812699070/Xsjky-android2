@@ -318,6 +318,8 @@ public class LoginActivity extends BaseActivity {
             String truckNumber = jsonObject.getString("TruckNumber");
             if (!TextUtils.isEmpty(truckNumber)) {
                 BaseApplication.userBindTool = truckNumber;
+            }else {
+                BaseApplication.userBindTool="";
             }
         } catch (JSONException e) {
             e.printStackTrace();
