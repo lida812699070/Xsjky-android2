@@ -18,7 +18,7 @@ public class BaseSettings {
             + "<soap:Body>";
     public final static String XML_DEFALUT_FOOT = "</soap:Body></soap:Envelope>";
     public final static String CLIENT_NAME = "XinShiJi.Mobile.Android.Employee";
-    public final static String VERSIONS = "develope";
+    public final static String VERSIONS = "webservice";
     //web-service
     public static String WEBSERVICE_URL = "http://" + VERSIONS + ".xsjky.cn/LogisticsServer.asmx";
     //public static String WEBSERVICE_URL = "http://develope.xsjky.cn/LogisticsServer.asmx";
