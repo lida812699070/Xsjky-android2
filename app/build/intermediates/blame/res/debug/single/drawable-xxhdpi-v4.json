@@ -274,5 +274,9 @@
     {
         "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_arrow_drop_right_black_24dp.png",
         "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\abc_ic_arrow_drop_right_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\filter.png",
+        "source": "C:\\Users\\OK\\AndroidStudioProjects\\Xsjky-android2\\app\\src\\main\\res\\drawable-xxhdpi\\filter.png"
     }
 ]

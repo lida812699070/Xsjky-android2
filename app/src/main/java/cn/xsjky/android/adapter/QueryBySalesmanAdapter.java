@@ -39,7 +39,7 @@ public class QueryBySalesmanAdapter<T> extends BaseRecycleviewAdapter {
         holderItem.tvConsigneeName.setText("接收单位："+entity.getConsigneeName());
         holderItem.tvConsigneeContactPerson.setText("接收人："+entity.getConsigneeContactPerson());
         holderItem.tvToCity.setText("目的城市："+entity.getToCity());
-        holderItem.tvShippingMode.setText("运输方式:"+entity.getShippingMode());
+        holderItem.tvShippingMode.setText("运输方式："+entity.getShippingMode());
         holderItem.tvShippingStatus.setText("运输状态："+entity.getShippingStatus());
     }
 

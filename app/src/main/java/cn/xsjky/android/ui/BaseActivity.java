@@ -19,6 +19,8 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.PersistableBundle;
 import android.os.PowerManager;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
@@ -35,7 +37,7 @@ import com.lidroid.xutils.http.client.HttpRequest;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class BaseActivity extends Activity {
+public class BaseActivity extends FragmentActivity {
     private ProgressDialog progressDialog;
     private ImageView mFlip;
     private TextView mTitle;
