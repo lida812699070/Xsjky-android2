@@ -53,7 +53,7 @@ import cn.xsjky.android.util.TempletUtil;
 import cn.xsjky.android.util.XmlParserUtil;
 import cn.xsjky.android.weiget.LoadingDialog;
 
-public class FreightActivity extends Activity {
+public class FreightActivity extends BaseActivity {
     private final static int REQUEST_BT_ENABLE = 0;
     private final static int REQUEST_BT_ADDR = 1;
     private ImageView mFilp;
@@ -144,15 +144,18 @@ public class FreightActivity extends Activity {
     }
 
     private void initBluetooth() {
+        LogU.e(Thread.currentThread() + "1---" + System.currentTimeMillis());
         btAdapter = BluetoothAdapter.getDefaultAdapter();
         BaseApplication.getApplication().setmBluetoothAdapter(btAdapter);
         if (btAdapter == null) {
             setInfo(true, "本机没有找到蓝牙硬件或驱动！");
             return;
         }
+        LogU.e(Thread.currentThread() + "2---" + System.currentTimeMillis());
         if (!btAdapter.isEnabled()) {
             btAdapter.enable();
             setInfo(false, "本地蓝牙已打开");
+            LogU.e(Thread.currentThread() + "3---" + System.currentTimeMillis());
             if (StrKit.notBlank(BaseApplication.getApplication().getLastDevice())) {
                 printer = new JQPrinter(btAdapter, BaseApplication.getApplication().getLastDevice());
                 //确定打印机已经连接了
@@ -164,6 +167,7 @@ public class FreightActivity extends Activity {
                     return;
                 }
                 setInfo(false, "成功连接打印机");
+                LogU.e(Thread.currentThread() + "4---" + System.currentTimeMillis());
             }
         }
     }

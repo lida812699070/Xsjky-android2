@@ -677,6 +677,7 @@ public class NewActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 mTvCustom.setText("");
+                mShipperName.setEnabled(true);
                 mCustom = null;
             }
         });
@@ -694,6 +695,7 @@ public class NewActivity extends BaseActivity {
         mShipperName.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
             }
 
             @Override
@@ -887,6 +889,7 @@ public class NewActivity extends BaseActivity {
         mShipperPhone2.setText(company.getOtherTel());
     }
 
+
     private SimpleDocument user;
 
     private void setDataDocumentContent(SimpleDocument user) {
@@ -897,6 +900,7 @@ public class NewActivity extends BaseActivity {
         mShipperName.setText(user.getShipperName());
         if (!user.getShipperCode().equals("0")) {
             mTvCustom.setText(user.getShipperName());
+            mShipperName.setEnabled(false);
         }
         mShipperContact.setText(user.getShipperContactName());
         mNeedSignUpNotifyMessage.setChecked(user.isNeedSignUpNotifyMessage());
@@ -1119,6 +1123,7 @@ public class NewActivity extends BaseActivity {
             mShipperPhone.setText(mCustom.getTel());
             String address = mCustom.getAddress();
             mTvCustom.setText(mCustom.getCustomerName());
+            mShipperName.setEnabled(false);
             String[] split = address.split(" ", 4);
             mShipperProvince.setText(split[0] + "," + split[1] + "," + split[2]);
             mShipperAddress.setText(split[3]);
@@ -1135,6 +1140,7 @@ public class NewActivity extends BaseActivity {
             mShipperPhone.setText(mCustom.getTel());
             String address = mCustom.getAddress();
             mTvCustom.setText(mCustom.getCustomerName());
+            mShipperName.setEnabled(false);
             String[] split = address.split(" ", 4);
             mShipperProvince.setText(split[0] + "," + split[1] + "," + split[2]);
             mShipperAddress.setText(split[3]);
@@ -1670,7 +1676,7 @@ public class NewActivity extends BaseActivity {
                 String consigneeArea = this.mConsigneeArea.getText().toString();
                 mDocument.setConsigneeAreaCode(consigneeArea);
                 if (TextUtils.isEmpty(consigneePhone2)) {
-                    mDocument.setConsigneePhoneNumber(consigneeMobile + ";" +consigneePhone);
+                    mDocument.setConsigneePhoneNumber(consigneeMobile + ";" + consigneePhone);
                 } else {
                     mDocument.setConsigneePhoneNumber(consigneeMobile + ";" + consigneePhone + PHONE_CONTENT + consigneePhone2);
                 }
@@ -2887,9 +2893,9 @@ public class NewActivity extends BaseActivity {
                 break;
             case COUNTWEIGHT_ACTIVITY:
                 if (resultCode == RESULT_OK) {
-                    CountWeightInfo info= (CountWeightInfo) data.getSerializableExtra("result");
-                    mProductQuantity.setText(info.getCount()+"");
-                    mProductVolumn.setText(info.getVol()+"");
+                    CountWeightInfo info = (CountWeightInfo) data.getSerializableExtra("result");
+                    mProductQuantity.setText(info.getCount() + "");
+                    mProductVolumn.setText(info.getVol() + "");
                     mCountWeight.setText(info.getCountWeight() + "");
                     mRemarks.setText(info.getRemark());
                 }

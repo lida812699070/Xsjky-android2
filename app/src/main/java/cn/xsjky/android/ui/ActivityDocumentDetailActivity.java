@@ -490,11 +490,20 @@ public class ActivityDocumentDetailActivity extends BaseActivity {
     public void photo(View view) {
         String state = Environment.getExternalStorageState();
         if (state.equals(Environment.MEDIA_MOUNTED)) {
-            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             myCaptureFile = new File(mFilePath);
-            Uri uri = Uri.fromFile(myCaptureFile);
-            intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
-            startActivityForResult(intent, TAKE_PICTURE);
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            int currentapiVersion = android.os.Build.VERSION.SDK_INT;
+            LogU.e("currentapiVersion", "currentapiVersion====>" + currentapiVersion);
+            if (currentapiVersion < 24) {
+                intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(myCaptureFile));
+                startActivityForResult(intent, TAKE_PICTURE);
+            } else {
+                ContentValues contentValues = new ContentValues(1);
+                contentValues.put(MediaStore.Images.Media.DATA, myCaptureFile.getAbsolutePath());
+                Uri uri = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues);
+                intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+                startActivityForResult(intent, TAKE_PICTURE);
+            }
         } else {
             Toast.makeText(getApplicationContext(), "请确认已经插入SD卡", Toast.LENGTH_LONG).show();
         }
