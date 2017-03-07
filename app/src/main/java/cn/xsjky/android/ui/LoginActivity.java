@@ -249,6 +249,12 @@ public class LoginActivity extends BaseActivity {
         params.addBodyParameter("clientName", BaseSettings.CLIENT_NAME);
         params.addBodyParameter("clientVersion", ClientVersion.ClientVersion);
         params.addBodyParameter("deviceId", device_id);
+        Log.e("username", username);
+        Log.e("password", password);
+        Log.e("ClientVersion", ClientVersion.ClientVersion);
+        Log.e("deviceId", device_id);
+
+
         BaseApplication.mHttpUtils.send(HttpRequest.HttpMethod.POST,
                 url,
                 params,
@@ -318,8 +324,8 @@ public class LoginActivity extends BaseActivity {
             String truckNumber = jsonObject.getString("TruckNumber");
             if (!TextUtils.isEmpty(truckNumber)) {
                 BaseApplication.userBindTool = truckNumber;
-            }else {
-                BaseApplication.userBindTool="";
+            } else {
+                BaseApplication.userBindTool = "";
             }
         } catch (JSONException e) {
             e.printStackTrace();

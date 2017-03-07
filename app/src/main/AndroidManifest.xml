@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    package="cn.xsjky.android"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:versionCode="29"
-    android:versionName="1.6.9">
+<manifest package="cn.xsjky.android"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:versionCode="30"
+          android:versionName="1.7.0">
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -82,14 +81,17 @@
                 <action android:name="cn.xsjky.android.restartReceiver"/>
             </intent-filter>
         </receiver>
+
+
         <receiver
             android:name=".recive.NetWorkListener"
             android:label="NetworkConnection">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
-
             </intent-filter>
         </receiver>
+
+
         <receiver
             android:name=".recive.PhoneListener"
             android:label="NetworkConnection">
@@ -381,6 +383,8 @@
         <activity android:name=".ui.CountWeightActivity">
         </activity>
         <activity android:name=".ui.DocumentQueryBySalesmanActivity">
+        </activity>
+        <activity android:name=".ui.TestActivty">
         </activity>
     </application>
 

@@ -3,7 +3,7 @@
 
     <dbname value="mydb"></dbname>
 
-    <version value="4"></version>
+    <version value="5"></version>
 
     <list>
         <mapping class="cn.xsjky.android.model.Custom"></mapping>
@@ -16,5 +16,6 @@
         <mapping class="cn.xsjky.android.model.Consignee"></mapping>
         <mapping class="cn.xsjky.android.model.CustomOtherInfos"></mapping>
         <mapping class="cn.xsjky.android.model.ShipPerson"></mapping>
+        <mapping class="cn.xsjky.android.model.Test"></mapping>
     </list>
 </litepal>

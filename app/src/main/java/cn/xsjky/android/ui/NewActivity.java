@@ -482,6 +482,7 @@ public class NewActivity extends BaseActivity {
                 startActivityForResult(intent, CUSTOMINFOINT);
                 if (dialog != null)
                     dialog.dismiss();
+
             }
         });
     }
@@ -718,8 +719,19 @@ public class NewActivity extends BaseActivity {
                     } else if (TextUtils.isEmpty(str)) {
                         mLvShipp.setVisibility(View.GONE);
                     }
+
+                    //设置选择客户的和shipperCode
+                    Custom custom = DataSupport.where("customerName = '" + str+"'").findFirst(Custom.class);
+                    if (custom != null) {
+                        mCustom = custom;
+                        mTvCustom.setText(mCustom.getCustomerName());
+                    }else {
+                        mCustom=null;
+                        mTvCustom.setText("");
+                    }
                 }
                 shipperlength = str.length();
+
             }
         });
         mShipperBtn = (Button) this.findViewById(R.id.new_shipper_btn);

@@ -26,7 +26,7 @@ public class AddressBookXml extends DefaultHandler{
     }
 
     public void startDocument() throws SAXException {
-
+        
     }
 
     public void startElement(String uri, String localName, String qName,
