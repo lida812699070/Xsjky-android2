@@ -191,7 +191,7 @@ public class GPSService extends Service {
         mLocationClient.setLocOption(option);
     }
 
-    private Boolean isLog = true;
+    private Boolean isLog = false;
 
     private void writeFileToSD(String call) {
         LogU.e(call);

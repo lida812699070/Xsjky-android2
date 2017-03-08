@@ -54,7 +54,9 @@ public class ItemStatisticsAdapter<T> extends BaseAdapter {
     private void initializeViews(T object, ViewHolder holder) {
         ReceiverStatData data = (ReceiverStatData) object;
         holder.itemStatisticsMonth.setText(data.getStatPeriod());
-        holder.itemStatisticsPrice.setText("运费："+data.getTotalPremium());
+        holder.itemStatisticsTotalCarriage.setText("总费用："+data.getTotalCarriage());
+        holder.itemStatisticsTotalAmount.setText("总运费："+data.getTotalAmount());
+        holder.itemStatisticsPrice.setText("保费："+data.getTotalPremium());
         holder.itemStatisticsQty.setText("票数："+data.getTicketCount());
         holder.itemStaristicsPremium.setText("保险："+data.getTotalPremium());
         holder.itemStaristicsQuantity.setText("件数："+data.getTotalQuantity());
@@ -65,6 +67,8 @@ public class ItemStatisticsAdapter<T> extends BaseAdapter {
 
     protected class ViewHolder {
         private TextView itemStatisticsMonth;
+        private TextView itemStatisticsTotalCarriage;
+        private TextView itemStatisticsTotalAmount;
         private TextView itemStatisticsPrice;
         private TextView itemStaristicsPremium;
         private TextView itemStaristicsQuantity;
@@ -74,6 +78,8 @@ public class ItemStatisticsAdapter<T> extends BaseAdapter {
 
         public ViewHolder(View view) {
             itemStatisticsMonth = (TextView) view.findViewById(R.id.item_statistics_month);
+            itemStatisticsTotalAmount = (TextView) view.findViewById(R.id.item_statistics_TotalAmount);
+            itemStatisticsTotalCarriage = (TextView) view.findViewById(R.id.item_statistics_TotalCarriage);
             itemStatisticsPrice = (TextView) view.findViewById(R.id.item_statistics_price);
             itemStatisticsQty = (TextView) view.findViewById(R.id.item_statistics_qty);
             itemStaristicsPremium = (TextView) view.findViewById(R.id.item_staristics_premium);

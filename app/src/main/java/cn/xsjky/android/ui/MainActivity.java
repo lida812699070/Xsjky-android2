@@ -358,7 +358,7 @@ public class MainActivity extends BaseActivity {
             return;
         }
         ReceiverStatData data = receiverStatDatas.get(0);
-        itemStatisticsPrice.setText("今日累计运费：" + data.getTotalPremium() + "共" + data.getTicketCount() + "票");
+        itemStatisticsPrice.setText("今日累计运费：" + data.getTotalAmount() + "共" + data.getTicketCount() + "票");
     }
 
     private void queryCustomer(final String city, final int pageNumber) {

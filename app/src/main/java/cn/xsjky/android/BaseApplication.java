@@ -132,7 +132,8 @@ public class BaseApplication extends LitePalApplication {
         CrashHandler crashHandler = CrashHandler.getInstance();
         crashHandler.init(this);
     }
-    public static void exic(){
+
+    public static void exic() {
         if (activityList.size() > 0) {
             for (Activity activitys : BaseApplication.activityList) {
                 try {
@@ -243,9 +244,10 @@ public class BaseApplication extends LitePalApplication {
         return mBaseApplication;
     }
 
-    public static void exitApp(){
+    public static void exitApp() {
         System.exit(0);
     }
+
     public HttpPro getHttpPro() {
         if (mHttpPro == null)
             mHttpPro = new HttpPro();
