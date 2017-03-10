@@ -106,8 +106,8 @@ public class SoapInfo {
             "        <NeedInsuranced>true</NeedInsuranced>\n" +
             "        <Address>AddressValue</Address>\n" +
             "        <Coordinate>\n" +
-            "          <Longitude>0.00</Longitude>\n" +
-            "          <Latitude>0.00</Latitude>\n" +
+            "          <Longitude>LongitudeValue</Longitude>\n" +
+            "          <Latitude>LatitudeValue</Latitude>\n" +
             "        </Coordinate>\n" +
             "        <IsCustomRate>true</IsCustomRate>\n" +
             "        <OperatorCount>0</OperatorCount>\n" +

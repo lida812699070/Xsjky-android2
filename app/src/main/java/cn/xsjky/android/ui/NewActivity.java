@@ -512,7 +512,7 @@ public class NewActivity extends BaseActivity {
             startActivity(new Intent(this, SynDataActivity.class));
         }*/
 
-        mConsigneeList.addAll(DataSupport.where("tocity = '" + toCity + "' and shipperName = '" + shiperName + "'").find(Consignee.class));
+        mConsigneeList.addAll(DataSupport.where("tocity like '" + toCity + "%' and shipperName = '" + shiperName + "'").find(Consignee.class));
         final ConsigneeContactAdapter adapter = new ConsigneeContactAdapter();
         adapter.notifyDataSetChanged();
         View view = View.inflate(mContext, R.layout.customer_list, null);

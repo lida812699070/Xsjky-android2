@@ -6,11 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import org.litepal.crud.DataSupport;
+import com.baidu.location.BDLocation;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,11 +23,11 @@ import cn.xsjky.android.constant.SoapAction;
 import cn.xsjky.android.constant.SoapEndpoint;
 import cn.xsjky.android.constant.SoapInfo;
 import cn.xsjky.android.model.Custom;
-import cn.xsjky.android.model.Document;
 import cn.xsjky.android.model.Infos;
 import cn.xsjky.android.model.LoginInfo;
+import cn.xsjky.android.service.AddressListener;
+import cn.xsjky.android.service.GetLocationService;
 import cn.xsjky.android.util.CallBackString;
-import cn.xsjky.android.util.DataFormatUtils;
 import cn.xsjky.android.util.LogU;
 import cn.xsjky.android.util.MySoapHttpRequest;
 import cn.xsjky.android.util.RetrueCodeHandler;
@@ -52,6 +52,7 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
     private LinkedList<String> mDatasets;
     private Context context;
     private Custom mCustom;
+    private Button mBtnGetLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +78,8 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
         mEtRemarks = (EditText) findViewById(R.id.et_addcustomerAc_Remarks);
         mEtAddress = (EditText) findViewById(R.id.et_addCustomerAc_shipper_Address);
         Button btnAdd = (Button) findViewById(R.id.btn_addCustomerAc_add);
+        mBtnGetLocation = (Button) findViewById(R.id.btn_getLocation);
+        mBtnGetLocation.setOnClickListener(this);
         mEtSelectProvince.setOnClickListener(this);
         btnAdd.setOnClickListener(this);
         if (mCustom != null) {
@@ -129,8 +132,28 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
             case R.id.btn_addCustomerAc_add:
                 addCustomerNetWork();
                 break;
+            case R.id.btn_getLocation:
+                getLocation();
+                break;
 
         }
+    }
+
+    private double lat = 0.00;
+    private double lng = 0.00;
+
+    private void getLocation() {
+        startService(new Intent(this, GetLocationService.class));
+        GetLocationService.setAddressListener(new AddressListener() {
+            @Override
+            public void locationStatus(boolean IsSuccess, BDLocation location) {
+                LogU.e(location.toString());
+                mEtSelectProvince.setText(location.getAddress().province + "," + location.getAddress().city + "," + location.getAddress().district);
+                mEtAddress.setText(location.getAddress().street + location.getAddress().streetNumber);
+                lat=location.getLatitude();
+                lng=location.getLongitude();
+            }
+        });
     }
 
     private void addCustomerNetWork() {
@@ -148,6 +171,8 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
             info = info.replace("CustomerIdValue", mCustom.getCustomerId());
         }
         info = info.replace("ClientNameValue", Infos.CLIENTNAME);
+        info = info.replace("LongitudeValue", lat+"");
+        info = info.replace("LatitudeValue", lng+"");
         info = info.replace("SessionIdValue", loginInfo.getSessionId());
         info = info.replace("RoleDataValue", "0");
         info = info.replace("CustomerNameValue", mEtCustomerName.getText().toString());
@@ -210,4 +235,6 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
             }
         }, endPoint, soapAction, finalInfo);
     }
+
+
 }

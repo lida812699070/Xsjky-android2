@@ -1,31 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <soap:Body>
-        <QueryCustomerSpecificationsResponse xmlns="http://www.xsjky.cn/">
-            <QueryCustomerSpecificationsResult>
-                <ReturnCode>0</ReturnCode>
-                <ReturnList>
-                    <CustomerSpecification>
-                        <ProductId>5</ProductId>
-                        <ProductDescription>大</ProductDescription>
-                        <Weight>10.0000</Weight>
-                        <Length>4.0000</Length>
-                        <Width>2.0000</Width>
-                        <Height>2.0000</Height>
-                    </CustomerSpecification>
-                    <CustomerSpecification>
-                        <ProductId>6</ProductId>
-                        <ProductDescription>中</ProductDescription>
-                        <Weight>6.0000</Weight>
-                        <Length>2.0000</Length>
-                        <Width>2.0000</Width>
-                        <Height>2.0000</Height>
-                    </CustomerSpecification>
-                </ReturnList>
-                <RecordCount>2</RecordCount>
-            </QueryCustomerSpecificationsResult>
-        </QueryCustomerSpecificationsResponse>
-    </soap:Body>
-</soap:Envelope>
+<QueryResultOfCustomer xmlns="http://www.xsjky.cn/"
+                       xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ReturnCode>0</ReturnCode>
+    <ReturnList>
+        <Customer>
+            <CustomerId>1722</CustomerId>
+            <CustomerName>新世纪123</CustomerName>
+            <Fax/>
+            <TelAreaCode/>
+            <Tel>15067080345</Tel>
+            <ContactPerson>接触</ContactPerson>
+            <Remarks>默默</Remarks>
+            <IsMonthlyBalance>false</IsMonthlyBalance>
+            <InsuranceRate>0.0000</InsuranceRate>
+            <NeedInsuranced>true</NeedInsuranced>
+            <Address>广东省 深圳市 宝安区 下十围</Address>
+            <Coordinate>
+                <Longitude>0.000000</Longitude>
+                <Latitude>0.000000</Latitude>
+            </Coordinate>
+            <IsCustomRate>true</IsCustomRate>
+            <OperatorCount>0</OperatorCount>
+            <BalancePeriod/>
+            <SendSmsToReceiver>Auto</SendSmsToReceiver>
+            <IsForbidden>false</IsForbidden>
+            <Salesman>陈子源 | 7899</Salesman>
+        </Customer>
+        <Customer>
+            <CustomerId>1724</CustomerId>
+            <CustomerName>新世纪222</CustomerName>
+            <Fax/>
+            <TelAreaCode/>
+            <Tel>51857676797</Tel>
+            <ContactPerson>历阀</ContactPerson>
+            <Remarks>备注</Remarks>
+            <IsMonthlyBalance>false</IsMonthlyBalance>
+            <InsuranceRate>0.0000</InsuranceRate>
+            <NeedInsuranced>true</NeedInsuranced>
+            <Address>广东省 深圳市 宝安区 拾业路33</Address>
+            <Coordinate>
+                <Longitude>0.000000</Longitude>
+                <Latitude>0.000000</Latitude>
+            </Coordinate>
+            <IsCustomRate>true</IsCustomRate>
+            <OperatorCount>0</OperatorCount>
+            <BalancePeriod/>
+            <SendSmsToReceiver>Auto</SendSmsToReceiver>
+            <IsForbidden>false</IsForbidden>
+            <Salesman>陈子源 | 7899</Salesman>
+        </Customer>
+        <Customer>
+            <CustomerId>1725</CustomerId>
+            <CustomerName>我婆婆</CustomerName>
+            <Fax>庸人自扰之</Fax>
+            <TelAreaCode/>
+            <Tel>18787567</Tel>
+            <ContactPerson>庸人自扰之是</ContactPerson>
+            <Remarks>nxnxnxnx</Remarks>
+            <IsMonthlyBalance>false</IsMonthlyBalance>
+            <InsuranceRate>0.0000</InsuranceRate>
+            <NeedInsuranced>true</NeedInsuranced>
+            <Address>广东省 深圳市 宝安区 拾业路33</Address>
+            <Coordinate>
+                <Longitude>0.000000</Longitude>
+                <Latitude>0.000000</Latitude>
+            </Coordinate>
+            <IsCustomRate>true</IsCustomRate>
+            <OperatorCount>0</OperatorCount>
+            <BalancePeriod/>
+            <SendSmsToReceiver>Auto</SendSmsToReceiver>
+            <IsForbidden>false</IsForbidden>
+            <Salesman>陈子源 | 7899</Salesman>
+        </Customer>
+    </ReturnList>
+    <RecordCount>3</RecordCount>
+</QueryResultOfCustomer>

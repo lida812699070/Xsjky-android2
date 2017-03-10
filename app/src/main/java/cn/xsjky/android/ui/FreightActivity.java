@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Bitmap;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -29,7 +30,6 @@ import android.widget.Toast;
 import com.jq.printer.JQPrinter;
 import com.jq.printer.Port.PORT_STATE;
 import com.jq.printer.esc.ESC;
-import com.jq.printer.jpl.Image.IMAGE_ROTATE;
 import com.jq.printer.jpl.Page.PAGE_ROTATE;
 
 import java.util.Map;
@@ -144,33 +144,78 @@ public class FreightActivity extends BaseActivity {
     }
 
     private void initBluetooth() {
-        LogU.e(Thread.currentThread() + "1---" + System.currentTimeMillis());
+
         btAdapter = BluetoothAdapter.getDefaultAdapter();
         BaseApplication.getApplication().setmBluetoothAdapter(btAdapter);
         if (btAdapter == null) {
             setInfo(true, "本机没有找到蓝牙硬件或驱动！");
             return;
         }
-        LogU.e(Thread.currentThread() + "2---" + System.currentTimeMillis());
         if (!btAdapter.isEnabled()) {
             btAdapter.enable();
             setInfo(false, "本地蓝牙已打开");
-            LogU.e(Thread.currentThread() + "3---" + System.currentTimeMillis());
             if (StrKit.notBlank(BaseApplication.getApplication().getLastDevice())) {
                 printer = new JQPrinter(btAdapter, BaseApplication.getApplication().getLastDevice());
-                //确定打印机已经连接了
-                if (!printer.open(com.jq.printer.JQPrinter.PRINTER_TYPE.ULT113x)) {
-                    setInfo(true, "打印机打开失败");
-                    return;
-                }
-                if (!printer.wakeUp()) {
-                    return;
-                }
-                setInfo(false, "成功连接打印机");
-                LogU.e(Thread.currentThread() + "4---" + System.currentTimeMillis());
+                new MyTask().execute(printer);
             }
         }
+
     }
+
+    private class MyTask extends AsyncTask<JQPrinter, Integer, Integer> {
+
+        @Override
+        protected Integer doInBackground(JQPrinter... params) {
+            //确定打印机已经连接了
+            JQPrinter printer = params[0];
+            if (printer == null) {
+                return 1;
+            }
+            if (!printer.open(com.jq.printer.JQPrinter.PRINTER_TYPE.ULT113x)) {
+                return 1;
+            }
+            if (!printer.wakeUp()) {
+                return 2;
+            } else {
+                return 3;
+            }
+        }
+
+        //onPreExecute方法用于在执行后台任务前做一些UI操作
+        @Override
+        protected void onPreExecute() {
+            showProgressDialog();
+        }
+
+        //onProgressUpdate方法用于更新进度信息
+        @Override
+        protected void onProgressUpdate(Integer... progresses) {
+
+        }
+
+        //onPostExecute方法用于在执行完后台任务后更新UI,显示结果
+        @Override
+        protected void onPostExecute(Integer result) {
+            if (result == 1) {
+                setInfo(true, "打印机打开失败");
+            } else if (result == 2) {
+                setInfo(false, "成功打开打印机");
+            } else {
+                setInfo(false, "成功连接打印机");
+                if (!TextUtils.isEmpty(btDeviceString))
+                    BaseApplication.getApplication().setLastDevice(btDeviceString);
+            }
+            closeProgressDialog();
+        }
+        
+        //onCancelled方法用于在取消执行中的任务时更改UI
+        @Override
+        protected void onCancelled() {
+            setInfo(false, "已取消");
+            closeProgressDialog();
+        }
+    }
+
 
     private void setInfo(boolean isError, String info) {
         if (isError)
@@ -296,6 +341,7 @@ public class FreightActivity extends BaseActivity {
                     rePrint = false;
                 }
                 handler.sendEmptyMessage(SHOW_DIALOG);
+
                 handler.postDelayed(new Runnable() {
                     public void run() {
                         print();
@@ -451,7 +497,9 @@ public class FreightActivity extends BaseActivity {
                     }
 
                     printer = new JQPrinter(btAdapter, btDeviceString);
-                    if (!printer.open(com.jq.printer.JQPrinter.PRINTER_TYPE.ULT113x)) {
+                    this.btDeviceString = btDeviceString;
+                    new MyTask().execute(printer);
+                   /* if (!printer.open(com.jq.printer.JQPrinter.PRINTER_TYPE.ULT113x)) {
                         setInfo(true, "打印机打开失败");
                         return;
                     }
@@ -459,7 +507,7 @@ public class FreightActivity extends BaseActivity {
                     if (!printer.wakeUp())
                         return;
                     BaseApplication.getApplication().setLastDevice(btDeviceString);
-                    setInfo(false, "成功连接打印机");
+                    setInfo(false, "成功连接打印机");*/
 
                     //	Toast.makeText(this, " 找到外部蓝牙设备", Toast.LENGTH_LONG).show();
 
@@ -473,6 +521,7 @@ public class FreightActivity extends BaseActivity {
         }
     }
 
+    private String btDeviceString = "";
 
     @Override
     protected void onDestroy() {

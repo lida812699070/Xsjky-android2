@@ -129,8 +129,7 @@ public class BaseApplication extends LitePalApplication {
         mBitmapUtils = new BitmapUtils(this);
         mBitmapUtils.configDefaultLoadingImage(R.drawable.ic_launcher);//默认背景图片
         mBitmapUtils.configDefaultBitmapConfig(Bitmap.Config.RGB_565);//设置图片压缩类型
-        CrashHandler crashHandler = CrashHandler.getInstance();
-        crashHandler.init(this);
+
     }
 
     public static void exic() {

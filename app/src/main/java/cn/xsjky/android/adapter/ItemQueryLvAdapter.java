@@ -159,7 +159,6 @@ public class ItemQueryLvAdapter<T> extends BaseAdapter {
         }, endPoint, soapAction, finalInfo);
     }
 
-
     protected class ViewHolder {
         private final TextView tvDocumentCreatorTime;
         private final TextView tvqueryWood;

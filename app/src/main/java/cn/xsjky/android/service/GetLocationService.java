@@ -52,6 +52,9 @@ public class GetLocationService extends Service {
                 if (locationIntface!=null){
                     locationIntface.locationStatus(true,latitude+","+longitude);
                 }
+                if (addressListener != null) {
+                    addressListener.locationStatus(true, location);
+                }
                // LogU.e(latitude+","+longitude);
             }
         });
@@ -95,8 +98,8 @@ public class GetLocationService extends Service {
         /*int span = 10*60*1000;//毫秒定位一次
         option.setScanSpan(span);//可选，默认0，即仅定位一次，设置发起定位请求的间隔需要大于等于1000ms才是有效的*/
         // option.setLocationMode(LocationClientOption.LocationMode.Battery_Saving);//低功耗模式开启定位
-        option.setIsNeedAddress(false);//可选，设置是否需要地址信息，默认不需要
-        option.setOpenGps(true);//可选，默认false,设置是否使用gps
+        option.setIsNeedAddress(true);//可选，设置是否需要地址信息，默认不需要
+        option.setOpenGps(false);//可选，默认false,设置是否使用gps
         option.setLocationNotify(false);//可选，默认false，设置是否当gps有效时按照1S1次频率输出GPS结果
         option.setIsNeedLocationDescribe(false);//可选，默认false，设置是否需要位置语义化结果，可以在BDLocation.getLocationDescribe里得到，结果类似于“在北京天安门附近”
         option.setIsNeedLocationPoiList(false);//可选，默认false，设置是否需要POI结果，可以在BDLocation.getPoiList里得到
@@ -110,8 +113,13 @@ public class GetLocationService extends Service {
 
 
     private static LocationIntface locationIntface;
+    private static AddressListener addressListener;
 
     public static void setLoacationListener(LocationIntface locationIntface) {
         GetLocationService.locationIntface = locationIntface;
+    }
+
+    public static void setAddressListener(AddressListener addressListener) {
+        GetLocationService.addressListener = addressListener;
     }
 }
