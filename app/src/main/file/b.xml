@@ -1,37 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <soap:Body>
-        <SaveCustomer xmlns="http://www.xsjky.cn/">
-            <securityInfo>
-                <UserId>8467</UserId>
-                <ClientName>XinShiJi.Mobile.Android.Employee</ClientName>
-                <SessionId>db5be1d1-d4d6-4259-a11f-79901fc87c0e</SessionId>
-                <RoleData>0</RoleData>
-            </securityInfo>
-            <customer>
-                <CustomerId>0</CustomerId>
-                <CustomerName>新世纪222</CustomerName>
-                <Fax></Fax>
-                <TelAreaCode></TelAreaCode>
-                <Tel>51857676797</Tel>
-                <ContactPerson>历阀</ContactPerson>
-                <Remarks>备注</Remarks>
-                <IsMonthlyBalance>true</IsMonthlyBalance>
-                <InsuranceRate>0</InsuranceRate>
-                <NeedInsuranced>true</NeedInsuranced>
-                <Address>广东省 深圳市 宝安区 拾业路33</Address>
-                <Coordinate>
-                    <Longitude>22.661666</Longitude>
-                    <Latitude>113.828058</Latitude>
-                </Coordinate>
-                <IsCustomRate>true</IsCustomRate>
-                <OperatorCount>0</OperatorCount>
-                <BalancePeriod></BalancePeriod>
-                <SendSmsToReceiver>Auto</SendSmsToReceiver>
-                <IsForbidden>true</IsForbidden>
-            </customer>
-        </SaveCustomer>
-    </soap:Body>
-</soap:Envelope>
+<QueryResultOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.xsjky.cn/">
+    <ReturnCode>0</ReturnCode>
+    <ReturnList>
+        <Customer>
+            <CustomerId>41</CustomerId>
+            <CustomerName>深圳市森诲电子</CustomerName>
+            <City>深圳市</City>
+            <TelAreaCode>0755</TelAreaCode>
+            <Tel>15814064378</Tel>
+            <ContactPerson>阳军</ContactPerson>
+            <IsMonthlyBalance>false</IsMonthlyBalance>
+            <InsuranceRate>0.0100</InsuranceRate>
+            <NeedInsuranced>true</NeedInsuranced>
+            <Address>广东省 深圳市 宝安区  福围第二工区</Address>
+            <Coordinate>
+                <Longitude>0.000000</Longitude>
+                <Latitude>0.000000</Latitude>
+            </Coordinate>
+            <IsCustomRate>false</IsCustomRate>
+            <OperatorCount>0</OperatorCount>
+            <BalancePeriod />
+            <SendSmsToReceiver>Enabled</SendSmsToReceiver>
+            <CreateTime>2016-10-18T08:53:42.997</CreateTime>
+            <Creator>(空)</Creator>
+            <IsForbidden>false</IsForbidden>
+            <Salesman>陈子源 | 7899</Salesman>
+        </Customer>
+        <Customer>
+            <CustomerId>1711</CustomerId>
+            <CustomerName>新世纪6666</CustomerName>
+            <Fax>4648874</Fax>
+            <TelAreaCode />
+            <Tel>15067080345</Tel>
+            <ContactPerson>立法</ContactPerson>
+            <Remarks>没有</Remarks>
+            <IsMonthlyBalance>false</IsMonthlyBalance>
+            <InsuranceRate>0.0000</InsuranceRate>
+            <NeedInsuranced>true</NeedInsuranced>
+            <Address>广东省 深圳市 宝安区  福围路商业街11</Address>
+            <Coordinate>
+                <Longitude>22.661875</Longitude>
+                <Latitude>113.827989</Latitude>
+            </Coordinate>
+            <IsCustomRate>true</IsCustomRate>
+            <OperatorCount>0</OperatorCount>
+            <BalancePeriod />
+            <SendSmsToReceiver>Auto</SendSmsToReceiver>
+            <CreateTime>2017-03-11T13:51:21.927</CreateTime>
+            <Creator>陈子源 | 7899</Creator>
+            <IsForbidden>false</IsForbidden>
+            <Salesman>陈子源 | 7899</Salesman>
+        </Customer>
+    </ReturnList>
+    <RecordCount>2</RecordCount>
+</QueryResultOfCustomer>

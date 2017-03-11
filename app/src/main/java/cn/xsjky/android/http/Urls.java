@@ -49,4 +49,5 @@ public class Urls {
     public static final String GetDocumentWoodenFrames="http://" + BaseSettings.VERSIONS + ".xsjky.cn/LogisticsServer.asmx/GetDocumentWoodenFrames";
     public static final String GetReceiverStatData="http://" + BaseSettings.VERSIONS + ".xsjky.cn/Reports.asmx/GetReceiverStatData";
     public static final String DocumentQueryBySalesman="http://" + BaseSettings.VERSIONS + ".xsjky.cn/LogisticsServer.asmx/DocumentQueryBySalesman";
+    public static final String CustomerQueryBySalesman="http://" + BaseSettings.VERSIONS + ".xsjky.cn/LogisticsServer.asmx/CustomerQueryBySalesman";
 }

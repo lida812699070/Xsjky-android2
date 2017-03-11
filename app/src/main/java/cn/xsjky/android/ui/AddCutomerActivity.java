@@ -88,6 +88,8 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
             mEtPerson.setText(mCustom.getContactPerson());
             mEtTel.setText(mCustom.getTel());
             mEtRemarks.setText(mCustom.getRemarks());
+            lat=Double.valueOf(mCustom.getCoordinate().getLatitude());
+            lng=Double.valueOf(mCustom.getCoordinate().getLongitude());
             String address = mCustom.getAddress();
             try {
                 String[] split = address.split(" ", 4);
@@ -184,7 +186,6 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
         String strProvince = mEtSelectProvince.getText().toString();
         String strAddress = mEtAddress.getText().toString();
         strProvince = strProvince.replace(",", " ");
-
         info = info.replace("AddressValue", strProvince + "  " + strAddress);
         info = info.replace("SendSmsToReceiverValue", mDatasets.get(mSmsReciviceSpinner.getSelectedIndex()));
         final String finalInfo = info;
@@ -199,6 +200,8 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
                         setHandler(HIDE_LOADING, "");
                         RetrueCodeHandler parser = RetruenUtils.getReturnInfo(data, new RetrueCodeHandler());
                         if (parser != null && parser.getString().equals("0")) {
+                            flashData();
+
                             SaveCutomerXmlparser saveCutomerXmlparser = RetruenUtils.getReturnInfo(data, new SaveCutomerXmlparser());
                             if (saveCutomerXmlparser != null) {
                                 Custom custom = saveCutomerXmlparser.getUser();
@@ -234,6 +237,13 @@ public class AddCutomerActivity extends BaseActivity implements View.OnClickList
 
             }
         }, endPoint, soapAction, finalInfo);
+    }
+
+    //发送广播更新
+    private void flashData() {
+        Intent intent = new Intent();
+        intent.setAction(CustomerManagerActivity.ACTION);
+        sendBroadcast(intent);
     }
 
 

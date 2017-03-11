@@ -1013,7 +1013,6 @@ public class MainActivity extends BaseActivity {
         mLvLeftList.add("同步数据");
         //TODO  测试阶段默认添加
         // if (TextUtils.isEmpty(BaseApplication.userBindTool))
-        mLvLeftList.add("客户管理");
         mLvLeftList.add("查询发货请求");
         mLvLeftList.add("统计");
         //TODO 添加侧滑菜单
@@ -1113,10 +1112,8 @@ public class MainActivity extends BaseActivity {
                 } else if (position == 3) {
                     startActivity(new Intent(MainActivity.this, SynDataActivity.class));
                 } else if (position == 4) {
-                    startActivity(new Intent(MainActivity.this, CustomManagerActivity.class));
-                } else if (position == 5) {
                     startActivity(new Intent(MainActivity.this, QueryDocument.class));
-                } else if (position == 6) {
+                } else if (position == 5) {
                     startActivity(new Intent(MainActivity.this, StatisticsDocumentActivity.class));
                 }
                 drawLayout.closeDrawers();

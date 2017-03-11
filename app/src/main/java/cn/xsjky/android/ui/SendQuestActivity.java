@@ -391,7 +391,6 @@ public class SendQuestActivity extends BaseActivity implements View.OnClickListe
                             Tos("取消成功");
                             UpdateCargoInfosActivity.clearCargoInfos();
                             BaseApplication.progressRequest = null;
-                            flash();
                             //TODO
 
                         } else if (retrueCode != null && retrueCode.getString().equals("-1")) {

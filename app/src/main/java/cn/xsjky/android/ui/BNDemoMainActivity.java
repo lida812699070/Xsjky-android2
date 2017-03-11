@@ -68,7 +68,6 @@ public class BNDemoMainActivity extends Activity {
         }
 
 
-//		 BNOuterLogUtil.setLogSwitcher(true);
     }
 
 

@@ -1049,38 +1049,7 @@ public class NewActivity extends BaseActivity {
             checkSynData();*/
     }
 
-    private void checkSynData() {
-        RequestParams params = new RequestParams();
-        params.addBodyParameter("sessionId", BaseApplication.loginInfo.getSessionId());
-        params.addBodyParameter("userId", BaseApplication.loginInfo.getUserId() + "");
-        params.addBodyParameter("clientName", BaseSettings.CLIENT_NAME);
-        params.addBodyParameter("pageNumber", 0 + "");
-        params.addBodyParameter("pageSize", 10 + "");
-        params.addBodyParameter("dataId", 1 + "");
-        long synTime = (long) SPUtils.get(this, "synTime", (long) 0);
-        String lastSynTime = DateFormatUtils.getData(synTime);
-        params.addBodyParameter("lastSynchronizedTime", lastSynTime);
-        params.addBodyParameter("dataFilter", "1");
-        getData(Urls.SynchronizeData, params, new CallBackString() {
-            @Override
-            public void httFinsh(String data) {
-                LogU.e(data);
-                SynchronizeDataXmlparser xmlparser = RetruenUtils.getReturnInfo(data, new SynchronizeDataXmlparser());
-                if (xmlparser != null) {
-                    SynchronizeData synchronizeData = xmlparser.getUser();
-                    String modifyData = synchronizeData.getModifyData();
-                    List<CustomJson> modifyDataCustomJsons = CustomJson.arrayCustomJsonFromData(modifyData);
-                    if (modifyDataCustomJsons != null)
-                        Custom.savemodifyDataCustomJsons(modifyDataCustomJsons);
-                    String deleteData = synchronizeData.getDeleteData();
-                    List<CustomJson> deleteDataCustomJsons = CustomJson.arrayCustomJsonFromData(deleteData);
-                    if (deleteDataCustomJsons != null)
-                        Custom.deleteDataCustomJsons(deleteDataCustomJsons);
-                    SPUtils.put(NewActivity.this, "synTime", System.currentTimeMillis());
-                }
-            }
-        });
-    }
+
 
     private void setCustomData() {
         ArrayList<String> customNames = new ArrayList<>();

@@ -183,15 +183,6 @@ public class Custom extends DataSupport implements Serializable{
         return customs;
     }
 
-    public static void savemodifyDataCustomJsons(List<CustomJson> modifyDataCustomJsons) {
-        List<Custom> customs = castToCustom(modifyDataCustomJsons);
-        if (customs != null)
-            updataListIntoDb(customs);
-    }
-
-    public static void deleteDataCustomJsons(List<CustomJson> deleteDataCustomJsons) {
-
-    }
 
     public static void updata(Custom custom) {
         if (custom == null)

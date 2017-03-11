@@ -50,7 +50,7 @@ public class CustomerManagerListviwAdapter<T> extends BaseRecycleviewAdapter {
         holderItem.tvCustomerPerson.setText(handoverDocument.getContactPerson());
         holderItem.tvAddress.setText("地址：" + handoverDocument.getCustomerName());
         holderItem.tvTel.setText("电话：" + handoverDocument.getTel());
-        holderItem.btnChange.setOnClickListener(new View.OnClickListener() {
+      /*  holderItem.btnChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 change(handoverDocument);
@@ -61,10 +61,10 @@ public class CustomerManagerListviwAdapter<T> extends BaseRecycleviewAdapter {
             public void onClick(View v) {
                 delete(handoverDocument, position);
             }
-        });
+        });*/
     }
 
-    private void delete(final Custom handoverDocument, final int position) {
+    /*private void delete(final Custom handoverDocument, final int position) {
         mContext.showDialog(new DialoginOkCallBack() {
             @Override
             public void onClickOk(DialogInterface dialog, int which) {
@@ -80,7 +80,7 @@ public class CustomerManagerListviwAdapter<T> extends BaseRecycleviewAdapter {
             }
         }, "是否删除？");
 
-    }
+    }*/
 
     public void getRemoteInfo(String customerId) {
         mContext.showProgressDialog();
@@ -135,12 +135,12 @@ public class CustomerManagerListviwAdapter<T> extends BaseRecycleviewAdapter {
 
     }
 
-    private void change(Custom handoverDocument) {
+    /*private void change(Custom handoverDocument) {
         Intent intent = new Intent(mContext, AddCutomerActivity.class);
         intent.putExtra("data", handoverDocument);
         LogU.e(handoverDocument.toString());
         mContext.startActivity(intent);
-    }
+    }*/
 
     //自定义的ViewHolder，持有每个Item的的所有界面元素
     public static class ItemViewHolderSon extends ItemViewHolder {
@@ -148,8 +148,6 @@ public class CustomerManagerListviwAdapter<T> extends BaseRecycleviewAdapter {
         private TextView tvCustomerPerson;
         private TextView tvAddress;
         private TextView tvTel;
-        private Button btnChange;
-        private Button btnDelete;
 
         public ItemViewHolderSon(View view) {
             super(view);
@@ -161,8 +159,6 @@ public class CustomerManagerListviwAdapter<T> extends BaseRecycleviewAdapter {
             tvCustomerPerson = (TextView) view.findViewById(R.id.item_customer_manager_CustomerPerson);
             tvAddress = (TextView) view.findViewById(R.id.item_customer_manager_Address);
             tvTel = (TextView) view.findViewById(R.id.item_customer_manager_Tel);
-            btnChange = (Button) view.findViewById(R.id.item_customer_manager_change);
-            btnDelete = (Button) view.findViewById(R.id.item_customer_manager_delete);
         }
     }
 }
